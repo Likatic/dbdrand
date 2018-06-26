@@ -2,51 +2,63 @@
     "killers": [
         {
             "name": "트래퍼",
-            "nickname": "덫구"
+            "nickname": "덫구",
+            "image": ""
         },
         {
             "name": "힐빌리",
-            "nickname": "톱구"
+            "nickname": "톱구",
+            "image": ""
         },
         {
             "name": "레이스",
-            "nickname": "종구"
+            "nickname": "종구",
+            "image": ""
         },
         {
             "name": "너스",
-            "nickname": "순구"
+            "nickname": "순구",
+            "image": ""
         },
         {
             "name": "해그",
-            "nickname": "망구"
+            "nickname": "망구",
+            "image": ""
         },
         {
             "name": "닥터",
-            "nickname": "전구"
+            "nickname": "전구",
+            "image": ""
         },
         {
             "name": "헌트리스",
-            "nickname": "토구"
+            "nickname": "토구",
+            "image": ""
         },
         {
             "name": "쉐이프",
-            "nickname": "식구"
+            "nickname": "식구",
+            "image": ""
         },
         {
             "name": "카니발",
-            "nickname": "준구"
+            "nickname": "준구",
+            "image": ""
         },
         {
             "name": "나이트메어",
-            "nickname": "몽구"
+            "nickname": "몽구",
+            "image": ""
         },
         {
             "name": "피그",
-            "nickname": "피구,직구"
+            "nickname": "피구,직구",
+            "image": ""
         },
         {
             "name": "클라운",
-            "nickname": ""
+            "nickname": "",
+            "image": ""
         }
     ]
 }

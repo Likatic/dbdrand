@@ -70,253 +70,295 @@
             "name": "빌려온 시간",
             "nickname": "시계",
             "color": "보라색",
-            "for": "윌리엄 빌 오버백"
+            "for": "윌리엄 빌 오버백",
+            "image": ""
         },
         {
             "name": "스트리트와이즈",
             "nickname": "",
             "color": "보라색",
-            "for": "니아 칼슨"
+            "for": "니아 칼슨",
+            "image": ""
         },
         {
             "name": "식물학 지식",
             "nickname": "",
             "color": "보라색",
-            "for": "클로뎃 모렐"
+            "for": "클로뎃 모렐",
+            "image": ""
         },
         {
             "name": "신경 쓰지 마",
             "nickname": "노미더",
             "color": "보라색",
-            "for": "데이비드 킹"
+            "for": "데이비드 킹",
+            "image": ""
         },
         {
             "name": "아드레날린",
             "nickname": "",
             "color": "보라색",
-            "for": "메그 토마스"
+            "for": "메그 토마스",
+            "image": ""
         },
         {
             "name": "아무도 버려두지 않아",
             "nickname": "",
             "color": "보라색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "약제학",
             "nickname": "",
             "color": "보라색",
-            "for": "쿠엔틴 스미스"
+            "for": "쿠엔틴 스미스",
+            "image": ""
         },
         {
             "name": "어두운 감각",
             "nickname": "",
             "color": "보라색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "어반 이베이젼",
             "nickname": "",
             "color": "보라색",
-            "for": "니아 칼슨"
+            "for": "니아 칼슨",
+            "image": ""
         },
         {
             "name": "오픈핸디드",
             "nickname": "",
             "color": "보라색",
-            "for": "에이스 비스콘티"
+            "for": "에이스 비스콘티",
+            "image": ""
         },
         {
             "name": "우리는 해낼거야",
             "nickname": "",
             "color": "보라색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "유연함",
             "nickname": "",
             "color": "보라색",
-            "for": "펭 민"
+            "for": "펭 민",
+            "image": ""
         },
         {
             "name": "유일한 생존자",
             "nickname": "",
             "color": "보라색",
-            "for": "로리 스트로드"
+            "for": "로리 스트로드",
+            "image": ""
         },
         {
             "name": "이런 일이 일어나다니",
             "nickname": "",
             "color": "보라색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "자가 치료",
             "nickname": "",
             "color": "보라색",
-            "for": "클로뎃 모렐"
+            "for": "클로뎃 모렐",
+            "image": ""
         },
         {
             "name": "자기 증명",
             "nickname": "",
             "color": "보라색",
-            "for": "드와이트 페어필드"
+            "for": "드와이트 페어필드",
+            "image": ""
         },
         {
             "name": "잠복 근무",
             "nickname": "",
             "color": "보라색",
-            "for": "탭 형사"
+            "for": "탭 형사",
+            "image": ""
         },
         {
             "name": "전력 질주",
             "nickname": "",
             "color": "보라색",
-            "for": "메그 토마스"
+            "for": "메그 토마스",
+            "image": ""
         },
         {
             "name": "죽기살기",
             "nickname": "데드하드",
             "color": "보라색",
-            "for": "데이비드 킹"
+            "for": "데이비드 킹",
+            "image": ""
         },
         {
             "name": "집착의 목적",
             "nickname": "",
             "color": "보라색",
-            "for": "로리 스트로드"
+            "for": "로리 스트로드",
+            "image": ""
         },
         {
             "name": "차분한 영혼",
             "nickname": "",
             "color": "보라색",
-            "for": "제이크 파크"
+            "for": "제이크 파크",
+            "image": ""
         },
         {
             "name": "킨드레드",
             "nickname": "",
             "color": "보라색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "판돈 올리기",
             "nickname": "",
             "color": "보라색",
-            "for": "에이스 비스콘티"
+            "for": "에이스 비스콘티",
+            "image": ""
         },
         {
             "name": "폭발",
             "nickname": "",
             "color": "보라색",
-            "for": "케이트 덴슨"
+            "for": "케이트 덴슨",
+            "image": ""
         },
         {
             "name": "형사의 직감",
             "nickname": "",
             "color": "보라색",
-            "for": "탭 형사"
+            "for": "탭 형사",
+            "image": ""
         },
         {
             "name": "회복력",
             "nickname": "",
             "color": "보라색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "희망",
             "nickname": "",
             "color": "보라색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "WINDOWS OF OPPORTUNITY",
             "nickname": "",
             "color": "초록색",
-            "for": "케이트 덴슨"
+            "for": "케이트 덴슨",
+            "image": ""
         },
         {
             "name": "경량화",
             "nickname": "",
             "color": "초록색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "공감",
             "nickname": "",
             "color": "초록색",
-            "for": "클로뎃 모렐"
+            "for": "클로뎃 모렐",
+            "image": ""
         },
         {
             "name": "굳건한 의지",
             "nickname": "",
             "color": "초록색",
-            "for": "제이크 파크"
+            "for": "제이크 파크",
+            "image": ""
         },
         {
             "name": "균형잡힌 착지",
             "nickname": "",
             "color": "초록색",
-            "for": "니아 칼슨"
+            "for": "니아 칼슨",
+            "image": ""
         },
         {
             "name": "기술자",
             "nickname": "",
             "color": "초록색",
-            "for": "펭 민"
+            "for": "펭 민",
+            "image": ""
         },
         {
             "name": "미끈한 고기",
             "nickname": "",
             "color": "초록색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "빠르고 조용하게",
             "nickname": "",
             "color": "초록색",
-            "for": "메그 토마스"
+            "for": "메그 토마스",
+            "image": ""
         },
         {
             "name": "약탈자의 본능",
             "nickname": "",
             "color": "초록색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "우리는 영원히 살거야",
             "nickname": "",
             "color": "초록색",
-            "for": "데이비드 킹"
+            "for": "데이비드 킹",
+            "image": ""
         },
         {
             "name": "유대감",
             "nickname": "",
             "color": "초록색",
-            "for": "드와이트 페어필드"
+            "for": "드와이트 페어필드",
+            "image": ""
         },
         {
             "name": "작은 사냥감",
             "nickname": "",
             "color": "초록색",
-            "for": ""
+            "for": "",
+            "image": ""
         },
         {
             "name": "정신 차려!",
             "nickname": "",
             "color": "초록색",
-            "for": "쿠엔틴 스미스"
+            "for": "쿠엔틴 스미스",
+            "image": ""
         },
         {
             "name": "집념",
             "nickname": "슈퍼 지렁이",
             "color": "초록색",
-            "for": "탭 형사"
+            "for": "탭 형사",
+            "image": ""
         },
         {
             "name": "홀로 남겨진 자",
             "nickname": "",
             "color": "초록색",
-            "for": "윌리엄 빌 오버백"
+            "for": "윌리엄 빌 오버백",
+            "image": ""
         }
     ]
 }
