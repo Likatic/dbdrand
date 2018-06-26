@@ -65,10 +65,23 @@ function generate_survivor_item () {
 function generate_survivor_addons ( type ) {
     if ( type != null ) {
         var arr = random_select_survivor_addons ( 2, type );
-        document.getElementById('addon_name_1').innerHTML = arr [ 0 ].name + convertNickname ( arr [ 0 ].nickname );
-        document.getElementById('addon_name_2').innerHTML = arr [ 1 ].name + convertNickname ( arr [ 1 ].nickname );
-        document.getElementById('addon_name_1').style.backgroundColor = convertColor ( arr [ 0 ].color );
-        document.getElementById('addon_name_2').style.backgroundColor = convertColor ( arr [ 1 ].color );    
+        if ( arr [ 0 ] != null && arr [ 0 ] != undefined ) {
+            document.getElementById('addon_name_1').innerHTML = arr [ 0 ].name + convertNickname ( arr [ 0 ].nickname );
+            document.getElementById('addon_name_1').style.backgroundColor = convertColor ( arr [ 0 ].color );
+        }
+        else {
+            document.getElementById('addon_name_1').innerHTML = "없음";
+            document.getElementById('addon_name_1').style.backgroundColor = "#000000";
+        }
+
+        if ( arr [ 1 ] != null && arr [ 1 ] != undefined ) {
+            document.getElementById('addon_name_2').innerHTML = arr [ 1 ].name + convertNickname ( arr [ 1 ].nickname );
+            document.getElementById('addon_name_2').style.backgroundColor = convertColor ( arr [ 1 ].color );
+        }
+        else {
+            document.getElementById('addon_name_2').innerHTML = "없음";
+            document.getElementById('addon_name_2').style.backgroundColor = "#000000";
+        }
     }
     else {
 
