@@ -1,0 +1,70 @@
+{
+    "survivor_addons": [
+        {
+            "name": "새로운 부품",
+            "nickname": "브랜뉴",
+            "color": "붉은색",
+            "target": "공구상자"
+        },
+        {
+            "name": "쇠톱",
+            "nickname": "",
+            "color": "초록색",
+            "target": "공구상자"
+        },
+        {
+            "name": "그립 렌치",
+            "nickname": "",
+            "color": "노란색",
+            "target": "공구상자"
+        },
+        {
+            "name": "보호 장갑",
+            "nickname": "",
+            "color": "노란색",
+            "target": "공구상자"
+        },
+        {
+            "name": "설명",
+            "nickname": "",
+            "color": "노란색",
+            "target": "공구상자"
+        },
+        {
+            "name": "와이어 스풀",
+            "nickname": "",
+            "color": "노란색",
+            "target": "공구상자"
+        },
+        {
+            "name": "커팅용 와이어",
+            "nickname": "",
+            "color": "노란색",
+            "target": "공구상자"
+        },
+        {
+            "name": "회전고리 소켓",
+            "nickname": "",
+            "color": "노란색",
+            "target": "공구상자"
+        },
+        {
+            "name": "깨끗한 천",
+            "nickname": "",
+            "color": "갈색",
+            "target": "공구상자"
+        },
+        {
+            "name": "스프링 클램프",
+            "nickname": "",
+            "color": "갈색",
+            "target": "공구상자"
+        },
+        {
+            "name": "잡동사니",
+            "nickname": "",
+            "color": "갈색",
+            "target": "공구상자"
+        }
+    ]
+}
