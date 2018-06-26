@@ -1,0 +1,340 @@
+{
+    "killer_perks": [
+        {
+            "name": "COULROPHOBIA",
+            "nickname": "",
+            "color": "보라색",
+            "for": "클라운",
+            "image": ""
+        },
+        {
+            "name": "POP GOES THE WEASEL",
+            "nickname": "",
+            "color": "보라색",
+            "for": "클라운",
+            "image": ""
+        },
+        {
+            "name": "가장 좋은 것은 마지막에",
+            "nickname": "",
+            "color": "보라색",
+            "for": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "가차없는 공격",
+            "nickname": "",
+            "color": "보라색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "간호사 호출",
+            "nickname": "",
+            "color": "보라색",
+            "for": "너스",
+            "image": ""
+        },
+        {
+            "name": "감시",
+            "nickname": "",
+            "color": "보라색",
+            "for": "피그",
+            "image": ""
+        },
+        {
+            "name": "거대한 신전",
+            "nickname": "",
+            "color": "보라색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "격렬한 속삭임",
+            "nickname": "",
+            "color": "보라색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "과충전",
+            "nickname": "",
+            "color": "보라색",
+            "for": "닥터",
+            "image": ""
+        },
+        {
+            "name": "관찰 & 학대",
+            "nickname": "",
+            "color": "보라색",
+            "for": "닥터",
+            "image": ""
+        },
+        {
+            "name": "그림자의 피조물",
+            "nickname": "",
+            "color": "보라색",
+            "for": "레이스",
+            "image": ""
+        },
+        {
+            "name": "기만",
+            "nickname": "",
+            "color": "보라색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "꺼져가는 빛",
+            "nickname": "",
+            "color": "보라색",
+            "for": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "나를 기억하나",
+            "nickname": "",
+            "color": "보라색",
+            "for": "나이트메어",
+            "image": ""
+        },
+        {
+            "name": "동요",
+            "nickname": "",
+            "color": "보라색",
+            "for": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "땜장이",
+            "nickname": "",
+            "color": "보라색",
+            "for": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "먹이 농락",
+            "nickname": "거미",
+            "color": "보라색",
+            "for": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "바베큐 & 칠리",
+            "nickname": "",
+            "color": "보라색",
+            "for": "카니발",
+            "image": ""
+        },
+        {
+            "name": "비참함",
+            "nickname": "",
+            "color": "보라색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "빛의 피조물",
+            "nickname": "",
+            "color": "보라색",
+            "for": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "선택하라",
+            "nickname": "",
+            "color": "보라색",
+            "for": "피그",
+            "image": ""
+        },
+        {
+            "name": "속삭임",
+            "nickname": "",
+            "color": "보라색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "어둠 속의 첩자",
+            "nickname": "",
+            "color": "보라색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "주술: 사냥꾼의 자장가",
+            "nickname": "",
+            "color": "보라색",
+            "for": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "주술: 삼켜지는 희망",
+            "nickname": "",
+            "color": "보라색",
+            "for": "해그",
+            "image": ""
+        },
+        {
+            "name": "주술: 제 3의 봉인",
+            "nickname": "",
+            "color": "보라색",
+            "for": "해그",
+            "image": ""
+        },
+        {
+            "name": "주술: 파멸",
+            "nickname": "",
+            "color": "보라색",
+            "for": "해그",
+            "image": ""
+        },
+        {
+            "name": "주술: 피할 수 없는 죽음",
+            "nickname": "",
+            "color": "보라색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "짐승같은 힘",
+            "nickname": "",
+            "color": "보라색",
+            "for": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "집요한 사냥개",
+            "nickname": "",
+            "color": "보라색",
+            "for": "레이스",
+            "image": ""
+        },
+        {
+            "name": "타나토포비아",
+            "nickname": "",
+            "color": "보라색",
+            "for": "너스",
+            "image": ""
+        },
+        {
+            "name": "텃세",
+            "nickname": "",
+            "color": "보라색",
+            "for": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "프랭클린의 죽음",
+            "nickname": "",
+            "color": "보라색",
+            "for": "카니발",
+            "image": ""
+        },
+        {
+            "name": "피의 교도관",
+            "nickname": "",
+            "color": "보라색",
+            "for": "나이트메어",
+            "image": ""
+        },
+        {
+            "name": "강철의 손아귀",
+            "nickname": "",
+            "color": "초록색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "격분",
+            "nickname": "",
+            "color": "초록색",
+            "for": "나이트메어",
+            "image": ""
+        },
+        {
+            "name": "때려눕히기",
+            "nickname": "",
+            "color": "초록색",
+            "for": "카니발",
+            "image": ""
+        },
+        {
+            "name": "맹수",
+            "nickname": "",
+            "color": "초록색",
+            "for": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "불안한 존재",
+            "nickname": "",
+            "color": "초록색",
+            "for": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "사슴 사냥꾼",
+            "nickname": "",
+            "color": "초록색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "속임수",
+            "nickname": "",
+            "color": "초록색",
+            "for": "클라운",
+            "image": ""
+        },
+        {
+            "name": "스트라이더",
+            "nickname": "",
+            "color": "초록색",
+            "for": "너스",
+            "image": ""
+        },
+        {
+            "name": "악독한 도살자",
+            "nickname": "",
+            "color": "초록색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "압도적인 존재감",
+            "nickname": "",
+            "color": "초록색",
+            "for": "닥터",
+            "image": ""
+        },
+        {
+            "name": "인내심",
+            "nickname": "",
+            "color": "초록색",
+            "for": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "주술: 사냥의 전율",
+            "nickname": "",
+            "color": "초록색",
+            "for": "",
+            "image": ""
+        },
+        {
+            "name": "집행인의 손재주",
+            "nickname": "",
+            "color": "초록색",
+            "for": "피그",
+            "image": ""
+        },
+        {
+            "name": "포식자",
+            "nickname": "",
+            "color": "초록색",
+            "for": "레이스",
+            "image": ""
+        }
+    ]
+}

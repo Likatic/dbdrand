@@ -1,0 +1,1103 @@
+{
+    "killer_addons": [
+        {
+            "name": "두 번째 규칙",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "아만다의 편지",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "부품 상자",
+            "nickname": "",
+            "color": "보라색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "아만다의 비밀",
+            "nickname": "",
+            "color": "보라색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "조작된 타이머",
+            "nickname": "",
+            "color": "보라색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "직쏘의 스케치",
+            "nickname": "",
+            "color": "보라색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "기계부품 가방",
+            "nickname": "",
+            "color": "초록색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "녹슨 부속품",
+            "nickname": "",
+            "color": "초록색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "맞물리는 면도날",
+            "nickname": "",
+            "color": "초록색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "서서히 퍼지는 독",
+            "nickname": "",
+            "color": "초록색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "직쏘의 주석이 달린 도면",
+            "nickname": "",
+            "color": "초록색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "가시 철사줄",
+            "nickname": "",
+            "color": "노란색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "다용도 칼날",
+            "nickname": "",
+            "color": "노란색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "마스크",
+            "nickname": "",
+            "color": "노란색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "비디오 테이프",
+            "nickname": "",
+            "color": "노란색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "유언장",
+            "nickname": "",
+            "color": "노란색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "작업장 기름",
+            "nickname": "",
+            "color": "갈색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "전투용 끈",
+            "nickname": "",
+            "color": "갈색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "조각난 주사기",
+            "nickname": "",
+            "color": "갈색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "존의 진료 기록",
+            "nickname": "",
+            "color": "갈색",
+            "target": "피그",
+            "image": ""
+        },
+        {
+            "name": "다이아몬드 연마석",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "수제 덫 가방",
+            "nickname": "",
+            "color": "보라색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "연마석",
+            "nickname": "",
+            "color": "",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "피묻은 코일",
+            "nickname": "",
+            "color": "",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "고정용 공구",
+            "nickname": "",
+            "color": "초록색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "녹슨 톱날",
+            "nickname": "",
+            "color": "초록색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "매끄러운 코일",
+            "nickname": "",
+            "color": "초록색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "설치도구",
+            "nickname": "",
+            "color": "초록색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "타르가 든 병",
+            "nickname": "",
+            "color": "초록색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "4-코일 스프링 키트",
+            "nickname": "",
+            "color": "노란색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "덫 설치기",
+            "nickname": "",
+            "color": "노란색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "덫 운반용 가방",
+            "nickname": "",
+            "color": "노란색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "로그우드 염료",
+            "nickname": "",
+            "color": "노란색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "보조 코일",
+            "nickname": "",
+            "color": "노란색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "왁스 덩어리",
+            "nickname": "",
+            "color": "노란색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "강력 코일 스프링",
+            "nickname": "",
+            "color": "갈색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "덫 설치용 장갑",
+            "nickname": "",
+            "color": "갈색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "톱니 모양 턱",
+            "nickname": "",
+            "color": "갈색",
+            "target": "트래퍼",
+            "image": ""
+        },
+        {
+            "name": "\"눈 먼 투사\" - 영혼",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"만물을  보는 눈\" - 영혼",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"깜빡임\" - 붉은 피",
+            "nickname": "",
+            "color": "보라색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"눈 먼 투사\" - 붉은 피",
+            "nickname": "",
+            "color": "보라색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"만물을 보는 눈\" - 붉은 피",
+            "nickname": "",
+            "color": "보라색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"폭풍\" - 붉은 피",
+            "nickname": "",
+            "color": "보라색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"눈 먼 투사\" - 순백",
+            "nickname": "",
+            "color": "초록색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"만물을 보는 눈\" - 순백",
+            "nickname": "",
+            "color": "초록색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"유령\" - 그을음",
+            "nickname": "",
+            "color": "초록색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"재빠른 사냥\" - 순백",
+            "nickname": "",
+            "color": "초록색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"폭풍\" - 진흙",
+            "nickname": "",
+            "color": "초록색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"눈 먼 투사\" - 진흙",
+            "nickname": "",
+            "color": "노란색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"만물을 보는 눈\" - 진흙",
+            "nickname": "",
+            "color": "노란색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"신속한 사냥\" - 진흙",
+            "nickname": "",
+            "color": "노란색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"폭풍\" - 그을음",
+            "nickname": "",
+            "color": "노란색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "의식용 종망치",
+            "nickname": "",
+            "color": "노란색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"깜빡임\" - 그을음",
+            "nickname": "",
+            "color": "갈색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"눈 먼 투사\" - 그을음",
+            "nickname": "",
+            "color": "갈색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "\"재빠른 사냥\" - 그을음",
+            "nickname": "",
+            "color": "갈색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "뼈로 만든 종망치",
+            "nickname": "",
+            "color": "갈색",
+            "target": "레이스",
+            "image": ""
+        },
+        {
+            "name": "그을린 사슬",
+            "nickname": "",
+            "color": "보라색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "톰슨제 밀주",
+            "nickname": "",
+            "color": "보라색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "경량 섀시",
+            "nickname": "",
+            "color": "초록색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "녹슨 체인",
+            "nickname": "",
+            "color": "초록색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "카뷰레터 개조 설명서",
+            "nickname": "",
+            "color": "초록색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "톰슨제 혼합물",
+            "nickname": "",
+            "color": "초록색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "파멸의 판화",
+            "nickname": "",
+            "color": "초록색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "긴 가이드 바",
+            "nickname": "",
+            "color": "노란색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "뇌관 전구",
+            "nickname": "",
+            "color": "노란색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "소름끼치는 체인",
+            "nickname": "",
+            "color": "노란색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "속도 제어기",
+            "nickname": "",
+            "color": "노란색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "수제 소음기",
+            "nickname": "",
+            "color": "노란색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "심도계",
+            "nickname": "",
+            "color": "노란색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "죽음의 판화",
+            "nickname": "",
+            "color": "노란색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "징 박힌 부츠",
+            "nickname": "",
+            "color": "노란색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "평범한 윤활유",
+            "nickname": "",
+            "color": "노란색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "식물성 기름",
+            "nickname": "",
+            "color": "갈색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "전기톱 줄",
+            "nickname": "",
+            "color": "갈색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "점화 플러그",
+            "nickname": "",
+            "color": "갈색",
+            "target": "힐빌리",
+            "image": ""
+        },
+        {
+            "name": "\"배드맨\"의 마지막 숨결",
+            "nickname": "",
+            "color": "보라색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "\"제너\"의 마지막 숨결",
+            "nickname": "",
+            "color": "보라색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "\"카바나\"의 마지막 숨결",
+            "nickname": "",
+            "color": "보라색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "체크 무늬 손수건",
+            "nickname": "",
+            "color": "보라색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "캠벨의 마지막 숨결",
+            "nickname": "",
+            "color": "보라색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "경련성 호흡",
+            "nickname": "",
+            "color": "초록색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "무거운 헐떡임",
+            "nickname": "",
+            "color": "초록색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "불안한 숨막힘",
+            "nickname": "",
+            "color": "초록색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "운동실조증",
+            "nickname": "",
+            "color": "초록색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "취약한 헐떡임",
+            "nickname": "",
+            "color": "초록색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "긴장증 소년의 보물",
+            "nickname": "",
+            "color": "노란색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "색이 바랜 팔찌",
+            "nickname": "",
+            "color": "노란색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "어두운 허리끈",
+            "nickname": "",
+            "color": "노란색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "회중시계",
+            "nickname": "",
+            "color": "노란색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "금속 숟가락",
+            "nickname": "",
+            "color": "갈색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "배드맨의 기념품",
+            "nickname": "",
+            "color": "갈색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "성냥갑",
+            "nickname": "",
+            "color": "갈색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "장난감 나무 말",
+            "nickname": "",
+            "color": "갈색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "찢어진 책갈피",
+            "nickname": "",
+            "color": "갈색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "흰색 참빗",
+            "nickname": "",
+            "color": "갈색",
+            "target": "너스",
+            "image": ""
+        },
+        {
+            "name": "핏빛 도끼날",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "때투성이의 도끼날",
+            "nickname": "",
+            "color": "보라색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "보병의 요대",
+            "nickname": "",
+            "color": "보라색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "빛나는 용액",
+            "nickname": "",
+            "color": "보라색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "꽃무늬 손수건",
+            "nickname": "",
+            "color": "초록색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "녹슨 도끼날",
+            "nickname": "",
+            "color": "초록색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "신경독 용액",
+            "nickname": "",
+            "color": "초록색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "주목씨 용액",
+            "nickname": "",
+            "color": "초록색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "톡 쏘는 용액",
+            "nickname": "",
+            "color": "초록색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "가죽고리",
+            "nickname": "",
+            "color": "노란색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "만나 풀 노리개",
+            "nickname": "",
+            "color": "노란색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "반짝이는 핀",
+            "nickname": "",
+            "color": "노란색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "사슴가죽 장갑",
+            "nickname": "",
+            "color": "노란색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "숫돌",
+            "nickname": "",
+            "color": "노란색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "주목씨 양조주",
+            "nickname": "",
+            "color": "노란색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "참나무 손잡이",
+            "nickname": "",
+            "color": "노란색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "거친 돌",
+            "nickname": "",
+            "color": "갈색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "베루스 독뱀",
+            "nickname": "",
+            "color": "갈색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "붕대 감긴 손잡이",
+            "nickname": "",
+            "color": "갈색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "아마니타 독버섯",
+            "nickname": "",
+            "color": "갈색",
+            "target": "헌트리스",
+            "image": ""
+        },
+        {
+            "name": "주디스의 묘비",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "향기로운 머리카락 다발",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "난도질 된 거울",
+            "nickname": "",
+            "color": "보라색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "머리카락 다발",
+            "nickname": "",
+            "color": "보라색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "묘비 조각",
+            "nickname": "",
+            "color": "보라색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "화장 거울",
+            "nickname": "",
+            "color": "보라색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "J.마이어스의 추도사",
+            "nickname": "",
+            "color": "초록색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "거울 조각",
+            "nickname": "",
+            "color": "초록색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "리본 머리핀",
+            "nickname": "",
+            "color": "초록색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "보석 상자",
+            "nickname": "",
+            "color": "초록색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "주디스의 일기",
+            "nickname": "",
+            "color": "초록색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "머리빗",
+            "nickname": "",
+            "color": "노란색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "반사되는 파편",
+            "nickname": "",
+            "color": "노란색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "보석 장식",
+            "nickname": "",
+            "color": "노란색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "유리 파편",
+            "nickname": "",
+            "color": "노란색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "추모화",
+            "nickname": "",
+            "color": "노란색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "토끼 시체",
+            "nickname": "",
+            "color": "노란색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "금발 머리카락",
+            "nickname": "",
+            "color": "갈색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "남자친구의 메모",
+            "nickname": "",
+            "color": "갈색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "싸구려 귀걸이",
+            "nickname": "",
+            "color": "갈색",
+            "target": "쉐이프",
+            "image": ""
+        },
+        {
+            "name": "핏빛 체스 킹",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"복종\" - 카터의 공책",
+            "nickname": "",
+            "color": "보라색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"질서\" - 카터의 공책",
+            "nickname": "",
+            "color": "보라색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"징벌\" - 카터의 공책",
+            "nickname": "",
+            "color": "보라색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"침착함\" - 카터의 공책",
+            "nickname": "",
+            "color": "보라색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"통제\" 카터의 공책",
+            "nickname": "",
+            "color": "보라색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"징벌\" - 등급 III",
+            "nickname": "",
+            "color": "초록색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"통제\" - 등급 III",
+            "nickname": "",
+            "color": "초록색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "큰 자극을 주는 전극",
+            "nickname": "",
+            "color": "초록색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"질서\" - 등급 II",
+            "nickname": "",
+            "color": "노란색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"징벌\" - 등급 II",
+            "nickname": "",
+            "color": "노란색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"침착함\" - 등급 II",
+            "nickname": "",
+            "color": "노란색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"통제\" - 등급 II",
+            "nickname": "",
+            "color": "노란색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "광이 나는 전극",
+            "nickname": "",
+            "color": "노란색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "버려진 테이프",
+            "nickname": "",
+            "color": "노란색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "인터뷰 테이프",
+            "nickname": "",
+            "color": "노란색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"질서\" - 단계 I",
+            "nickname": "",
+            "color": "갈색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "\"침착함\" - 단계 I",
+            "nickname": "",
+            "color": "갈색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "곰팡이 핀 전극",
+            "nickname": "",
+            "color": "갈색",
+            "target": "닥터",
+            "image": ""
+        },
+        {
+            "name": "단풍나무 나이트",
+            "nickname": "",
+            "color": "갈색",
+            "target": "닥터",
+            "image": ""
+        }
+    ]
+}

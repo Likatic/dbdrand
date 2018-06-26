@@ -11,3 +11,8 @@ function convertNickname ( nickname ) {
     if ( nickname == null || nickname == undefined || nickname == '' ) return '';
     return '<br>(' + nickname + ')';
 }
+
+function convertImage ( image, path ) {
+    if ( image == null || image == undefined || image == "" ) return '';
+    return "<img src='" + path + image + "' />";
+}

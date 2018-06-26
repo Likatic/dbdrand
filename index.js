@@ -33,7 +33,12 @@ function initialize () {
 
 function generate_survivor_perks () {
     var arr = random_select_survivor_perks ( 4 );
+    var path = '/images/survivors/perks/';
 
+    document.getElementById('perk_image_1').innerHTML = convertImage ( arr [ 0 ].image, path );
+    document.getElementById('perk_image_2').innerHTML = convertImage ( arr [ 1 ].image, path );
+    document.getElementById('perk_image_3').innerHTML = convertImage ( arr [ 2 ].image, path );
+    document.getElementById('perk_image_4').innerHTML = convertImage ( arr [ 3 ].image, path );
     document.getElementById('perk_name_1').innerHTML = arr [ 0 ].name + convertNickname ( arr [ 0 ].nickname );
     document.getElementById('perk_name_2').innerHTML = arr [ 1 ].name + convertNickname ( arr [ 1 ].nickname );
     document.getElementById('perk_name_3').innerHTML = arr [ 2 ].name + convertNickname ( arr [ 2 ].nickname );
