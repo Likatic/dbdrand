@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>DEAD BY DAYLIGHT - RANDOM PERKS</title>
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" type="text/css" href="index.css" />
+
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.js"></script>
+        <script src="./scripts/utility.js"></script>
+        <script src="./scripts/survivor_perk.js"></script>
+        <script src="./scripts/survivor_item.js"></script>
+        <script src="./scripts/survivor_offering.js"></script>
+
+        <script src="./index.js"></script>
+    </head>
+
+    <body onload="initialize ()">
+        <h1>DEAD BY DAYLIGHT 랜덤퍽 생성기</h1>
+
+        <div class="tab">
+            <button class="tabLinks" id="defaultButton" onclick="goToTab ( event, 'survivor' )">생존자</button>
+            <button class="tabLinks" onclick="goToTab ( event, 'killer' )">살인마</button>
+            <button class="tabLinks" onclick="goToTab ( event, 'survivor_select' )">생존자 임의선택</button>
+            <button class="tabLinks" onclick="goToTab ( event, 'killer_select' )">살인마 임의선택</button>
+        </div>
+
+        <div id="survivor" class="tabContent">
+            <h2>생존자</h2>
+            <h3>기술</h3>
+            <a href="#" onclick="generate_survivor_perks ()">임의 기술 생성</a>
+
+            <table class="tableClass">
+                <tr>
+                    <td id="perk_image_1"></td>
+                    <td id="perk_image_2"></td>
+                    <td id="perk_image_3"></td>
+                    <td id="perk_image_4"></td>
+                </tr>
+                <tr>
+                    <td id="perk_name_1" class="perk_colored_cell"></td>
+                    <td id="perk_name_2" class="perk_colored_cell"></td>
+                    <td id="perk_name_3" class="perk_colored_cell"></td>
+                    <td id="perk_name_4" class="perk_colored_cell"></td>
+                </tr>
+                <tr>
+                    <td id="perk_for_1" class="perk_for_cell"></td>
+                    <td id="perk_for_2" class="perk_for_cell"></td>
+                    <td id="perk_for_3" class="perk_for_cell"></td>
+                    <td id="perk_for_4" class="perk_for_cell"></td>
+                </tr>
+            </table>
+
+            <h3>아이템 및 애드온</h3>
+            <a href="#" onclick="generate_survivor_item ()">임의 아이템 생성</a>
+            <table class="tableClass">
+                <tr>
+                    <td id="item_image"></td>
+                </tr>
+                <tr>
+                    <td id="item_name" class="item_colored_cell"></td>
+                </tr>
+                <tr>
+                    <td id="item_addons">
+
+                    </td>
+                </tr>
+            </table>
+
+            <h3>공물</h3>
+            <a href="#" onclick="generate_survivor_offering ()">임의 공물 생성</a>
+            <table class="tableClass">
+                <tr>
+                    <td id="offering_image"></td>
+                </tr>
+                <tr>
+                    <td id="offering_name" class="offering_colored_cell"></td>
+                </tr>
+                <tr>
+                    <td id="offering_memo" class="offering_memo_cell"></td>
+                </tr>
+            </table>
+        </div>
+              
+        <div id="killer" class="tabContent">
+            <h2>살인마</h2>
+
+        </div>
+              
+        <div id="survivor_select" class="tabContent">
+            <h2>생존자 임의 선택</h2>
+
+        </div>
+              
+        <div id="killer_select" class="tabContent">
+            <h2>살인마 임의 선택</h2>
+
+        </div>
+    </body>
+</html>
