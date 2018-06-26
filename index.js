@@ -21,8 +21,10 @@ function initialize () {
     initialize_survivor_perks ( function () {
         generate_survivor_perks ();
     } );
-    initialize_survivor_items ( function () {
-        generate_survivor_item ();
+    initialize_survivor_addons ( function () {
+        initialize_survivor_items ( function () {
+            generate_survivor_item ();
+        } );
     } );
     initialize_survivor_offerings ( function () {
         generate_survivor_offering ();
@@ -51,12 +53,25 @@ function generate_survivor_item () {
     if ( item != null && item != undefined ) {
         document.getElementById('item_name').innerHTML = item.name;
         document.getElementById('item_name').style.backgroundColor = convertColor ( item.color );
-        
-
+        generate_survivor_addons ( item.type );
     }
     else {
         document.getElementById('item_name').innerHTML = '아이템 없음';
         document.getElementById('item_name').style.backgroundColor = '#000000';
+        generate_survivor_addons ( null );
+    }
+}
+
+function generate_survivor_addons ( type ) {
+    if ( type != null ) {
+        var arr = random_select_survivor_addons ( 2, type );
+        document.getElementById('addon_name_1').innerHTML = arr [ 0 ].name + convertNickname ( arr [ 0 ].nickname );
+        document.getElementById('addon_name_2').innerHTML = arr [ 1 ].name + convertNickname ( arr [ 1 ].nickname );
+        document.getElementById('addon_name_1').style.backgroundColor = convertColor ( arr [ 0 ].color );
+        document.getElementById('addon_name_2').style.backgroundColor = convertColor ( arr [ 1 ].color );    
+    }
+    else {
+
     }
 }
 

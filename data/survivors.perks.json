@@ -4,67 +4,78 @@
             "name": "결정적인 일격",
             "nickname": "칼찌",
             "color": "보라색",
-            "for": "로리 스트로드"
+            "for": "로리 스트로드",
+            "image": "01.png"
         },
         {
             "name": "공작원",
             "nickname": "",
             "color": "보라색",
-            "for": "제이크 파크"
+            "for": "제이크 파크",
+            "image": "02.png"
         },
         {
             "name": "기민함",
             "nickname": "",
             "color": "보라색",
-            "for": "펭민"
+            "for": "펭민",
+            "image": ".png"
         },
         {
             "name": "나와 함께 춤을",
             "nickname": "",
             "color": "보라색",
-            "for": "케이트 덴슨"
+            "for": "케이트 덴슨",
+            "image": ".png"
         },
         {
             "name": "데자뷰",
             "nickname": "",
             "color": "보라색",
-            "for": ""
+            "for": "",
+            "image": ".png"
         },
         {
             "name": "등골이 오싹해",
             "nickname": "",
             "color": "보라색",
-            "for": ""
+            "for": "",
+            "image": "06.png"
         },
         {
             "name": "리더",
             "nickname": "",
             "color": "보라색",
-            "for": "드와이트 페어필드"
+            "for": "드와이트 페어필드",
+            "image": ".png"
         },
         {
             "name": "불굴",
             "nickname": "",
             "color": "보라색",
-            "for": "윌리엄 빌 오버백"
+            "for": "윌리엄 빌 오버백",
+            "image": ".png"
         },
         {
             "name": "불길한 예감",
             "nickname": "",
             "color": "보라색",
-            "for": ""
+            "for": "",
+            "image": ".png"
         },
         {
             "name": "불침번",
             "nickname": "",
             "color": "보라색",
-            "for": "쿠엔틴 스미스"
+            "for": "쿠엔틴 스미스",
+            "image": ".png"
         },
         {
             "name": "비장의 패",
             "nickname": "",
             "color": "보라색",
-            "for": "에이스 비스콘티"
+            "for": "에이스 비스콘티",
+            "image": "11.png"
         },
         {
             "name": "빌려온 시간",

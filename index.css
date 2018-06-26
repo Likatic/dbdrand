@@ -64,7 +64,14 @@ a {
 }
 
 .item_colored_cell {
-    height:24px;
+    height:48px;
+    color: white;
+}
+
+.addon_colored_cell {
+    font-size: x-small;
+    height: 40px;
+    width: 50%;
     color: white;
 }
 

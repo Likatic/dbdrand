@@ -76,6 +76,307 @@
             "color": "갈색",
             "target": "공구상자",
             "image": ""
+        },
+        {
+            "name": "열쇠고리",
+            "nickname": "",
+            "color": "보라색",
+            "target": "열쇠",
+            "image": ""
+        },
+        {
+            "name": "핏빛 호박",
+            "nickname": "",
+            "color": "보라색",
+            "target": "열쇠",
+            "image": ""
+        },
+        {
+            "name": "하얀 빛깔 유리",
+            "nickname": "",
+            "color": "보라색",
+            "target": "열쇠",
+            "image": ""
+        },
+        {
+            "name": "황금 토큰",
+            "nickname": "",
+            "color": "초록색",
+            "target": "열쇠",
+            "image": ""
+        },
+        {
+            "name": "묵주",
+            "nickname": "",
+            "color": "노란색",
+            "target": "열쇠",
+            "image": ""
+        },
+        {
+            "name": "침식된 토큰",
+            "nickname": "",
+            "color": "노란색",
+            "target": "열쇠",
+            "image": ""
+        },
+        {
+            "name": "흠집 난 진주",
+            "nickname": "",
+            "color": "노란색",
+            "target": "열쇠",
+            "image": ""
+        },
+        {
+            "name": "의식용 매듭",
+            "nickname": "",
+            "color": "갈색",
+            "target": "열쇠",
+            "image": ""
+        },
+        {
+            "name": "수정 구슬",
+            "nickname": "",
+            "color": "보라색",
+            "target": "지도",
+            "image": ""
+        },
+        {
+            "name": "검은색 비단 끈",
+            "nickname": "",
+            "color": "초록색",
+            "target": "지도",
+            "image": ""
+        },
+        {
+            "name": "이상한 도장",
+            "nickname": "",
+            "color": "초록색",
+            "target": "지도",
+            "image": ""
+        },
+        {
+            "name": "노란색 전선",
+            "nickname": "",
+            "color": "노란색",
+            "target": "지도",
+            "image": ""
+        },
+        {
+            "name": "붉은색 노끈",
+            "nickname": "",
+            "color": "노란색",
+            "target": "지도",
+            "image": ""
+        },
+        {
+            "name": "유리 구슬",
+            "nickname": "",
+            "color": "노란색",
+            "target": "지도",
+            "image": ""
+        },
+        {
+            "name": "지연성 젤리",
+            "nickname": "",
+            "color": "노란색",
+            "target": "지도",
+            "image": ""
+        },
+        {
+            "name": "특이한 도장",
+            "nickname": "",
+            "color": "노란색",
+            "target": "지도",
+            "image": ""
+        },
+        {
+            "name": "지도 부록",
+            "nickname": "",
+            "color": "갈색",
+            "target": "지도",
+            "image": ""
+        },
+        {
+            "name": "항출혈 주사기",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "항출혈제",
+            "nickname": "",
+            "color": "보라색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "수술용 봉합선",
+            "nickname": "",
+            "color": "초록색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "압박 붕대",
+            "nickname": "",
+            "color": "초록색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "젤 패드",
+            "nickname": "",
+            "color": "초록색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "거즈 두루마리",
+            "nickname": "",
+            "color": "노란색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "스펀지",
+            "nickname": "",
+            "color": "노란색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "실과 바늘",
+            "nickname": "",
+            "color": "노란색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "의료용 가위",
+            "nickname": "",
+            "color": "노란색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "자기 접착 붕대",
+            "nickname": "",
+            "color": "노란색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "다공성 반창고",
+            "nickname": "",
+            "color": "갈색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "붕대",
+            "nickname": "",
+            "color": "갈색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "작업용 장갑",
+            "nickname": "",
+            "color": "갈색",
+            "target": "구급상자",
+            "image": ""
+        },
+        {
+            "name": "정체불명의 전구",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "최고급 수정 렌즈",
+            "nickname": "",
+            "color": "보라색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "강력한 할로겐 전구",
+            "nickname": "",
+            "color": "초록색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "오래 가는 배터리",
+            "nickname": "",
+            "color": "초록색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "고무 손잡이",
+            "nickname": "",
+            "color": "노란색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "대용량 배터리",
+            "nickname": "",
+            "color": "노란색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "저전압 필라멘트",
+            "nickname": "",
+            "color": "노란색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "집중반사경",
+            "nickname": "",
+            "color": "노란색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "포커스 렌즈",
+            "nickname": "",
+            "color": "노란색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "가죽 손잡이",
+            "nickname": "",
+            "color": "갈색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "강력 전구",
+            "nickname": "",
+            "color": "갈색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "배터리",
+            "nickname": "",
+            "color": "갈색",
+            "target": "손전등",
+            "image": ""
+        },
+        {
+            "name": "와이드 렌즈",
+            "nickname": "",
+            "color": "갈색",
+            "target": "손전등",
+            "image": ""
         }
     ]
 }
