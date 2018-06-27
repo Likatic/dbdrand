@@ -36,6 +36,9 @@ function initialize () {
     initialize_killer_offerings ( function () {
         generate_killer_offering ();
     } );
+    initialize_killer_addons ( function () {
+        generate_killer_addon ();
+     } );
 }
 
 function generate_survivor_perks () {
@@ -106,7 +109,12 @@ function generate_survivor_addons ( type ) {
         }
     }
     else {
-
+        document.getElementById('survivor_addon_image_1').innerHTML = '';
+        document.getElementById('survivor_addon_name_1').innerHTML = "없음";
+        document.getElementById('survivor_addon_name_1').style.backgroundColor = "#000000";
+        document.getElementById('survivor_addon_image_2').innerHTML = '';
+        document.getElementById('survivor_addon_name_2').innerHTML = "없음";
+        document.getElementById('survivor_addon_name_2').style.backgroundColor = "#000000";
     }
 }
 
@@ -163,5 +171,44 @@ function generate_killer_offering () {
         document.getElementById('killer_offering_name').innerHTML = '공물 없음';
         document.getElementById('killer_offering_name').style.backgroundColor = '#000000';
         document.getElementById('killer_offering_memo').innerHTML = '공물 없이 시작하세요';
+    }
+}
+
+function generate_killer_addon () {
+    var path = './images/killers/addons/';
+
+    var type = document.getElementById('killer_selector').value;
+
+    if ( type != null ) {
+        var arr = random_select_killer_addons ( 2, type );
+        if ( arr [ 0 ] != null && arr [ 0 ] != undefined ) {
+            document.getElementById('killer_addon_image_1').innerHTML = convertImage ( arr [ 0 ].image, path );
+            document.getElementById('killer_addon_name_1').innerHTML = arr [ 0 ].name + convertNickname ( arr [ 0 ].nickname );
+            document.getElementById('killer_addon_name_1').style.backgroundColor = convertColor ( arr [ 0 ].color );
+        }
+        else {
+            document.getElementById('killer_addon_image_1').innerHTML = '';
+            document.getElementById('killer_addon_name_1').innerHTML = "없음";
+            document.getElementById('killer_addon_name_1').style.backgroundColor = "#000000";
+        }
+
+        if ( arr [ 1 ] != null && arr [ 1 ] != undefined ) {
+            document.getElementById('killer_addon_image_2').innerHTML = convertImage ( arr [ 1 ].image, path );
+            document.getElementById('killer_addon_name_2').innerHTML = arr [ 1 ].name + convertNickname ( arr [ 1 ].nickname );
+            document.getElementById('killer_addon_name_2').style.backgroundColor = convertColor ( arr [ 1 ].color );
+        }
+        else {
+            document.getElementById('killer_addon_image_2').innerHTML = '';
+            document.getElementById('killer_addon_name_2').innerHTML = "없음";
+            document.getElementById('killer_addon_name_2').style.backgroundColor = "#000000";
+        }
+    }
+    else {
+        document.getElementById('killer_addon_image_1').innerHTML = '';
+        document.getElementById('killer_addon_name_1').innerHTML = "없음";
+        document.getElementById('killer_addon_name_1').style.backgroundColor = "#000000";
+        document.getElementById('killer_addon_image_2').innerHTML = '';
+        document.getElementById('killer_addon_name_2').innerHTML = "없음";
+        document.getElementById('killer_addon_name_2').style.backgroundColor = "#000000";
     }
 }
