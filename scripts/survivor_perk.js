@@ -1,6 +1,7 @@
 var survivor_perks;
 
 function initialize_survivor_perks ( loadComplete ) {
+    if ( survivor_perks != null && survivor_perks != undefined ) return;
     $.getJSON ( 'data/survivors.perks.json', function ( json ) {
         survivor_perks = json.survivor_perks;
         loadComplete ();

@@ -1,6 +1,7 @@
 var survivor_offerings;
 
 function initialize_survivor_offerings ( loadComplete ) {
+    if ( survivor_offerings != null && survivor_offerings != undefined ) return;
     $.getJSON ( 'data/survivors.offerings.json', function ( json ) {
         survivor_offerings = json.survivor_offerings;
         loadComplete ();

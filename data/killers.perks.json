@@ -47,7 +47,7 @@
             "nickname": "",
             "color": "보라색",
             "for": "",
-            "image": ""
+            "image": "거대한신전.png"
         },
         {
             "name": "격렬한 속삭임",
@@ -61,14 +61,14 @@
             "nickname": "",
             "color": "보라색",
             "for": "닥터",
-            "image": ""
+            "image": "과충전.png"
         },
         {
             "name": "관찰 & 학대",
             "nickname": "",
             "color": "보라색",
             "for": "닥터",
-            "image": ""
+            "image": "관찰과학대.png"
         },
         {
             "name": "그림자의 피조물",
@@ -89,7 +89,7 @@
             "nickname": "",
             "color": "보라색",
             "for": "쉐이프",
-            "image": ""
+            "image": "꺼져가는빛.png"
         },
         {
             "name": "나를 기억하나",
@@ -229,7 +229,7 @@
             "nickname": "",
             "color": "보라색",
             "for": "카니발",
-            "image": ""
+            "image": "프랭클린의죽음.png"
         },
         {
             "name": "피의 교도관",
@@ -250,7 +250,7 @@
             "nickname": "",
             "color": "초록색",
             "for": "나이트메어",
-            "image": ""
+            "image": "격분.png"
         },
         {
             "name": "때려눕히기",
@@ -306,14 +306,14 @@
             "nickname": "",
             "color": "초록색",
             "for": "닥터",
-            "image": ""
+            "image": "압도적인존재감.png"
         },
         {
             "name": "인내심",
             "nickname": "",
             "color": "초록색",
             "for": "힐빌리",
-            "image": ""
+            "image": "인내심.png"
         },
         {
             "name": "주술: 사냥의 전율",

@@ -1,10 +1,12 @@
 body {
     font-family: '맑은 고딕', '굴림', Arial, sans-serif, cursive;
+    background-color: #111;
+    color: lightgray;
 }
 
 .container {
-    min-width: 480px;
-    max-width: 560px;
+    min-width: 506px;
+    max-width: 610px;
     margin: 0 auto;
 }
 
@@ -32,7 +34,7 @@ h3 > a {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 10px 12px;
     transition: 0.3s;
 }
 
@@ -97,12 +99,20 @@ h3 > a {
     font-size: x-small;
 }
 
+.portraits_list {
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
 .portraits_list > li {
     display: inline;
     list-style-type: none;
+    list-style-position:inside;
+    padding: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding: auto;
     text-align: center;
     font-size:x-small;
 }

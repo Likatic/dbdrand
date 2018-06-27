@@ -1,8 +1,8 @@
 var survivor_addons;
-
 var survivor_addons_dict = new Object ();
 
 function initialize_survivor_addons ( loadComplete ) {
+    if ( survivor_addons != null && survivor_addons != undefined ) return;
     $.getJSON ( 'data/survivors.addons.json', function ( json ) {
         survivor_addons = json.survivor_addons;
 

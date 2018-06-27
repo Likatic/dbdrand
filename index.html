@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="ko">
     <head>
-        <title>DEAD BY DAYLIGHT - RANDOM PERKS</title>
+        <title>데드 바이 데이라이트 - 랜덤 퍽</title>
         <meta charset="utf-8" />
+        <meta name="author" content="다람이" />
+        <meta name="description" content="데드 바이 데이라이트 친구죽이기용 기술 및 아이템, 애드온, 공물 랜덤 생성기." />
 
         <link rel="stylesheet" type="text/css" href="index.css" />
 
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.js"></script>
+        <script src="https://rawgit.com/shaunbowe/jquery.visibilityChanged/master/visibilityChanged.js"></script>
         <script src="./scripts/utility.js"></script>
         <script src="./scripts/survivor_perk.js"></script>
         <script src="./scripts/survivor_item.js"></script>
@@ -25,146 +28,152 @@
 
     <body onload="initialize ()">
         <div class="container">
-                <div class="tab">
-                    <button class="tabLinks" id="defaultButton" onclick="goToTab ( event, 'survivor' )">생존자</button>
-                    <button class="tabLinks" onclick="goToTab ( event, 'killer' )">살인마</button>
-                    <button class="tabLinks" onclick="goToTab ( event, 'survivor_select' )">생존자 임의선택</button>
-                    <button class="tabLinks" onclick="goToTab ( event, 'killer_select' )">살인마 임의선택</button>
-                </div>
-        
-                <div id="survivor" class="tabContent">
-                    <h3>기술 <a href="#" onclick="generate_survivor_perks ()">임의 기술 생성</a></h3>
-                    <table class="tableClass">
-                        <tr>
-                            <td id="survivor_perk_image_1"></td>
-                            <td id="survivor_perk_image_2"></td>
-                            <td id="survivor_perk_image_3"></td>
-                            <td id="survivor_perk_image_4"></td>
-                        </tr>
-                        <tr>
-                            <td id="survivor_perk_name_1" class="perk_colored_cell"></td>
-                            <td id="survivor_perk_name_2" class="perk_colored_cell"></td>
-                            <td id="survivor_perk_name_3" class="perk_colored_cell"></td>
-                            <td id="survivor_perk_name_4" class="perk_colored_cell"></td>
-                        </tr>
-                        <tr>
-                            <td id="survivor_perk_for_1" class="perk_for_cell"></td>
-                            <td id="survivor_perk_for_2" class="perk_for_cell"></td>
-                            <td id="survivor_perk_for_3" class="perk_for_cell"></td>
-                            <td id="survivor_perk_for_4" class="perk_for_cell"></td>
-                        </tr>
-                    </table>
-        
-                    <h3>공물 <a href="#" onclick="generate_survivor_offering ()">임의 공물 생성</a></h3>
-                    <table class="tableClass">
-                        <tr>
-                            <td id="survivor_offering_image"></td>
-                        </tr>
-                        <tr>
-                            <td id="survivor_offering_name" class="offering_colored_cell"></td>
-                        </tr>
-                        <tr>
-                            <td id="survivor_offering_memo" class="offering_memo_cell"></td>
-                        </tr>
-                    </table>
-        
-                    <h3>아이템 및 애드온 <a href="#" onclick="generate_survivor_item ()">임의 아이템 생성</a></h3>
-                    <table class="tableClass">
-                        <tr>
-                            <td id="survivor_item_image"></td>
-                        </tr>
-                        <tr>
-                            <td id="survivor_item_name" class="item_colored_cell"></td>
-                        </tr>
-                    </table>
-                    <table class="tableClass">
-                        <tr>
-                            <td id="survivor_addon_image_1"></td>
-                            <td id="survivor_addon_image_2"></td>
-                        </tr>
-                        <tr>
-                            <td id="survivor_addon_name_1" class="addon_colored_cell"></td>
-                            <td id="survivor_addon_name_2" class="addon_colored_cell"></td>
-                        </tr>
-                    </table>
-                </div>
-                      
-                <div id="killer" class="tabContent">
-                    <h3>기술 <a href="#" onclick="generate_killer_perks ()">임의 기술 생성</a></h3>
-                    <table class="tableClass">
-                        <tr>
-                            <td id="killer_perk_image_1"></td>
-                            <td id="killer_perk_image_2"></td>
-                            <td id="killer_perk_image_3"></td>
-                            <td id="killer_perk_image_4"></td>
-                        </tr>
-                        <tr>
-                            <td id="killer_perk_name_1" class="perk_colored_cell"></td>
-                            <td id="killer_perk_name_2" class="perk_colored_cell"></td>
-                            <td id="killer_perk_name_3" class="perk_colored_cell"></td>
-                            <td id="killer_perk_name_4" class="perk_colored_cell"></td>
-                        </tr>
-                        <tr>
-                            <td id="killer_perk_for_1" class="perk_for_cell"></td>
-                            <td id="killer_perk_for_2" class="perk_for_cell"></td>
-                            <td id="killer_perk_for_3" class="perk_for_cell"></td>
-                            <td id="killer_perk_for_4" class="perk_for_cell"></td>
-                        </tr>
-                    </table>
-        
-                    <h3>공물 <a href="#" onclick="generate_killer_offering ()">임의 공물 생성</a></h3>
-                    <table class="tableClass">
-                        <tr>
-                            <td id="killer_offering_image"></td>
-                        </tr>
-                        <tr>
-                            <td id="killer_offering_name" class="offering_colored_cell"></td>
-                        </tr>
-                        <tr>
-                            <td id="killer_offering_memo" class="offering_memo_cell"></td>
-                        </tr>
-                    </table>
-        
-                    <h3>애드온 <a href="#" onclick="generate_killer_addon ()">임의 애드온 생성</a>
-                    <select id="killer_selector">
-                        <option value="트래퍼">트래퍼</option>
-                        <option value="힐빌리">힐빌리</option>
-                        <option value="레이스">레이스</option>
-                        <option value="너스">너스</option>
-                        <option value="해그">해그</option>
-                        <option value="닥터">닥터</option>
-                        <option value="헌트리스">헌트리스</option>
-                        <option value="쉐이프">쉐이프</option>
-                        <option value="카니발">카니발</option>
-                        <option value="나이트메어">나이트메어</option>
-                        <option value="피그">피그</option>
-                        <option value="클라운">클라운</option>
-                    </select></h3>
-                    <table class="tableClass">
-                        <tr>
-                            <td id="killer_addon_image_1"></td>
-                            <td id="killer_addon_image_2"></td>
-                        </tr>
-                        <tr>
-                            <td id="killer_addon_name_1" class="addon_colored_cell"></td>
-                            <td id="killer_addon_name_2" class="addon_colored_cell"></td>
-                        </tr>
-                    </table>
-                </div>
-                      
-                <div id="survivor_select" class="tabContent">
-                    <h3>생존자 <a href="#" onclick="select_survivor ()">임의 선택</a></h3>
-                    <ul id="survivor_portraits" class="portraits_list">
+            <h1 style="text-align: center;">데드 바이 데이라이트 랜덤 퍽</h1>
 
-                    </ul>
-                </div>
-                      
-                <div id="killer_select" class="tabContent">
-                    <h3>살인마 <a href="#" onclick="select_killer ()">임의 선택</a></h3>
-                    <ul id="killer_portraits" class="portraits_list">
-                        
-                    </ul>
-                </div>
+            <div class="tab">
+                <button class="tabLinks" id="defaultButton" onclick="goToTab ( event, 'survivor' )">생존자</button>
+                <button class="tabLinks" onclick="goToTab ( event, 'killer' )">살인마</button>
+                <button class="tabLinks" onclick="goToTab ( event, 'survivor_select' )">생존자 임의선택</button>
+                <button class="tabLinks" onclick="goToTab ( event, 'killer_select' )">살인마 임의선택</button>
+            </div>
+    
+            <!-- 생존자 -->
+            <div id="survivor" class="tabContent">
+                <h3>기술 <a href="#" onclick="generate_survivor_perks ()">임의 기술 생성</a></h3>
+                <table class="tableClass">
+                    <tr>
+                        <td id="survivor_perk_image_1"></td>
+                        <td id="survivor_perk_image_2"></td>
+                        <td id="survivor_perk_image_3"></td>
+                        <td id="survivor_perk_image_4"></td>
+                    </tr>
+                    <tr>
+                        <td id="survivor_perk_name_1" class="perk_colored_cell"></td>
+                        <td id="survivor_perk_name_2" class="perk_colored_cell"></td>
+                        <td id="survivor_perk_name_3" class="perk_colored_cell"></td>
+                        <td id="survivor_perk_name_4" class="perk_colored_cell"></td>
+                    </tr>
+                    <tr>
+                        <td id="survivor_perk_for_1" class="perk_for_cell"></td>
+                        <td id="survivor_perk_for_2" class="perk_for_cell"></td>
+                        <td id="survivor_perk_for_3" class="perk_for_cell"></td>
+                        <td id="survivor_perk_for_4" class="perk_for_cell"></td>
+                    </tr>
+                </table>
+    
+                <h3>공물 <a href="#" onclick="generate_survivor_offering ()">임의 공물 생성</a></h3>
+                <table class="tableClass">
+                    <tr>
+                        <td id="survivor_offering_image"></td>
+                    </tr>
+                    <tr>
+                        <td id="survivor_offering_name" class="offering_colored_cell"></td>
+                    </tr>
+                    <tr>
+                        <td id="survivor_offering_memo" class="offering_memo_cell"></td>
+                    </tr>
+                </table>
+    
+                <h3>아이템 및 애드온 <a href="#" onclick="generate_survivor_item ()">임의 아이템 생성</a></h3>
+                <table class="tableClass">
+                    <tr>
+                        <td id="survivor_item_image"></td>
+                    </tr>
+                    <tr>
+                        <td id="survivor_item_name" class="item_colored_cell"></td>
+                    </tr>
+                </table>
+                <table class="tableClass">
+                    <tr>
+                        <td id="survivor_addon_image_1"></td>
+                        <td id="survivor_addon_image_2"></td>
+                    </tr>
+                    <tr>
+                        <td id="survivor_addon_name_1" class="addon_colored_cell"></td>
+                        <td id="survivor_addon_name_2" class="addon_colored_cell"></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <!-- 살인마 -->
+            <div id="killer" class="tabContent">
+                <h3>기술 <a href="#" onclick="generate_killer_perks ()">임의 기술 생성</a></h3>
+                <table class="tableClass">
+                    <tr>
+                        <td id="killer_perk_image_1"></td>
+                        <td id="killer_perk_image_2"></td>
+                        <td id="killer_perk_image_3"></td>
+                        <td id="killer_perk_image_4"></td>
+                    </tr>
+                    <tr>
+                        <td id="killer_perk_name_1" class="perk_colored_cell"></td>
+                        <td id="killer_perk_name_2" class="perk_colored_cell"></td>
+                        <td id="killer_perk_name_3" class="perk_colored_cell"></td>
+                        <td id="killer_perk_name_4" class="perk_colored_cell"></td>
+                    </tr>
+                    <tr>
+                        <td id="killer_perk_for_1" class="perk_for_cell"></td>
+                        <td id="killer_perk_for_2" class="perk_for_cell"></td>
+                        <td id="killer_perk_for_3" class="perk_for_cell"></td>
+                        <td id="killer_perk_for_4" class="perk_for_cell"></td>
+                    </tr>
+                </table>
+    
+                <h3>공물 <a href="#" onclick="generate_killer_offering ()">임의 공물 생성</a></h3>
+                <table class="tableClass">
+                    <tr>
+                        <td id="killer_offering_image"></td>
+                    </tr>
+                    <tr>
+                        <td id="killer_offering_name" class="offering_colored_cell"></td>
+                    </tr>
+                    <tr>
+                        <td id="killer_offering_memo" class="offering_memo_cell"></td>
+                    </tr>
+                </table>
+    
+                <h3>애드온 <a href="#" onclick="generate_killer_addon ()">임의 애드온 생성</a>
+                <select id="killer_selector">
+                    <option value="트래퍼">트래퍼</option>
+                    <option value="힐빌리">힐빌리</option>
+                    <option value="레이스">레이스</option>
+                    <option value="너스">너스</option>
+                    <option value="해그">해그</option>
+                    <option value="닥터">닥터</option>
+                    <option value="헌트리스">헌트리스</option>
+                    <option value="쉐이프">쉐이프</option>
+                    <option value="카니발">카니발</option>
+                    <option value="나이트메어">나이트메어</option>
+                    <option value="피그">피그</option>
+                    <option value="클라운">클라운</option>
+                </select></h3>
+                <table class="tableClass">
+                    <tr>
+                        <td id="killer_addon_image_1"></td>
+                        <td id="killer_addon_image_2"></td>
+                    </tr>
+                    <tr>
+                        <td id="killer_addon_name_1" class="addon_colored_cell"></td>
+                        <td id="killer_addon_name_2" class="addon_colored_cell"></td>
+                    </tr>
+                </table>
+            </div>
+                
+            <!-- 생존자 임의선택 -->
+            <div id="survivor_select" class="tabContent">
+                <h3>생존자 <a href="#" onclick="select_survivor ()">임의 선택</a></h3>
+                <ul id="survivor_portraits" class="portraits_list">
+
+                </ul>
+            </div>
+                
+            <!-- 살인마 임의선택 -->
+            <div id="killer_select" class="tabContent">
+                <h3>살인마 <a href="#" onclick="select_killer ()">임의 선택</a></h3>
+                <ul id="killer_portraits" class="portraits_list">
+                    
+                </ul>
+            </div>
         </div>
 
         <p style="text-align:center; font-size:x-small;">

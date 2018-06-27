@@ -1,6 +1,7 @@
 var killers;
 
 function initialize_killers ( loadComplete ) {
+    if ( killers != null && killers != undefined ) return;
     $.getJSON ( 'data/killers.json', function ( json ) {
         killers = json.killers;
         loadComplete ();

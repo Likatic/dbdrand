@@ -1,6 +1,7 @@
 var survivors;
 
 function initialize_survivors ( loadComplete ) {
+    if ( survivors != null && survivors != undefined ) return;
     $.getJSON ( 'data/survivors.json', function ( json ) {
         survivors = json.survivors;
         loadComplete ();

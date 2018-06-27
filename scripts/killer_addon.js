@@ -1,8 +1,8 @@
 var killer_addons;
-
 var killer_addons_dict = new Object ();
 
 function initialize_killer_addons ( loadComplete ) {
+    if ( killer_addons != null && killer_addons != undefined ) return;
     $.getJSON ( 'data/killers.addons.json', function ( json ) {
         killer_addons = json.killer_addons;
 

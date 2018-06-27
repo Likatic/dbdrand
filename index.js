@@ -16,8 +16,43 @@ function goToTab ( evt, tabName ) {
 }
 
 function initialize () {
+    $('#survivor').visibilityChanged ( {
+        callback: function ( element, visible ) {
+            if ( visible )
+                initialize_survivor_randoms ();
+        },
+        runOnLoad: false,
+        frequency: 100
+    } );
+    $('#killer').visibilityChanged ( {
+        callback: function ( element, visible ) {
+            if ( visible )
+                initialize_killer_randoms ();
+        },
+        runOnLoad: false,
+        frequency: 100
+    } );
+    $('#survivor_select').visibilityChanged ( {
+        callback: function ( element, visible ) {
+            if ( visible )
+                initialize_survivor_random ();
+        },
+        runOnLoad: false,
+        frequency: 100
+    } );
+    $('#killer_select').visibilityChanged ( {
+        callback: function ( element, visible ) {
+            if ( visible )
+                initialize_killer_random ();
+        },
+        runOnLoad: false,
+        frequency: 100
+    } );
+    
     document.getElementById ( 'defaultButton' ).click();
+}
 
+function initialize_survivor_randoms () {
     initialize_survivor_perks ( function () {
         generate_survivor_perks ();
     } );
@@ -29,7 +64,9 @@ function initialize () {
             generate_survivor_item ();
         } );
     } );
+}
 
+function initialize_killer_randoms () {
     initialize_killer_perks ( function () {
         generate_killer_perks ();
     } );
@@ -39,13 +76,18 @@ function initialize () {
     initialize_killer_addons ( function () {
         generate_killer_addon ();
      } );
+}
 
-     initialize_survivors ( function () {
-        generate_survivor_items ();
-     } );
-     initialize_killers ( function () {
-        generate_killer_items ();
-     } );
+function initialize_survivor_random () {
+    initialize_survivors ( function () {
+       generate_survivor_portraits ();
+    } );
+}
+
+function initialize_killer_random () {
+    initialize_killers ( function () {
+       generate_killer_portraits ();
+    } );
 }
 
 function generate_survivor_perks () {
@@ -224,7 +266,7 @@ function generate_killer_addon () {
     }
 }
 
-function generate_survivor_items () {
+function generate_survivor_portraits () {
     var survs = get_survivors ();
     var path = './images/survivors/portraits/';
     var div = document.getElementById ( 'survivor_portraits' );
@@ -235,7 +277,7 @@ function generate_survivor_items () {
     }
 
     for ( var i = 0; i < survs.length; ++i ) {
-        document.getElementById ( survs [ i ].name ).style = "opacity: 0.5;";
+        document.getElementById ( survs [ i ].name ).style = "opacity: 0.2;";
     }
 
     select_survivor ();
@@ -244,7 +286,7 @@ function generate_survivor_items () {
 function select_survivor () {
     var survs = get_survivors ();
     for ( var i = 0; i < survs.length; ++i ) {
-        document.getElementById ( survs [ i ].name ).style = "opacity: 0.5;";
+        document.getElementById ( survs [ i ].name ).style = "opacity: 0.2;";
     }
 
     var survivor = random_select_survivor ();
@@ -253,7 +295,7 @@ function select_survivor () {
     document.getElementById ( survivor.name ).style = "opacity: 1;";
 }
 
-function generate_killer_items () {
+function generate_killer_portraits () {
     var kills = get_killers ();
     var path = './images/killers/portraits/';
     var div = document.getElementById ( 'killer_portraits' );
@@ -264,7 +306,7 @@ function generate_killer_items () {
     }
 
     for ( var i = 0; i < kills.length; ++i ) {
-        document.getElementById ( kills [ i ].name ).style = "opacity: 0.5;";
+        document.getElementById ( kills [ i ].name ).style = "opacity: 0.2;";
     }
 
     select_killer ();
@@ -273,7 +315,7 @@ function generate_killer_items () {
 function select_killer () {
     var kills = get_killers ();
     for ( var i = 0; i < kills.length; ++i ) {
-        document.getElementById ( kills [ i ].name ).style = "opacity: 0.5;";
+        document.getElementById ( kills [ i ].name ).style = "opacity: 0.2;";
     }
 
     var killer = random_select_killer ();

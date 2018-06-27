@@ -1,6 +1,7 @@
 var killer_perks;
 
 function initialize_killer_perks ( loadComplete ) {
+    if ( killer_perks != null && killer_perks != undefined ) return;
     $.getJSON ( 'data/killers.perks.json', function ( json ) {
         killer_perks = json.killer_perks;
         loadComplete ();
