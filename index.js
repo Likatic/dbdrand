@@ -21,13 +21,13 @@ function initialize () {
     initialize_survivor_perks ( function () {
         generate_survivor_perks ();
     } );
+    initialize_survivor_offerings ( function () {
+        generate_survivor_offering ();
+    } );
     initialize_survivor_addons ( function () {
         initialize_survivor_items ( function () {
             generate_survivor_item ();
         } );
-    } );
-    initialize_survivor_offerings ( function () {
-        generate_survivor_offering ();
     } );
 
     initialize_killer_perks ( function () {

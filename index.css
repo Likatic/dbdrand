@@ -2,9 +2,21 @@ body {
     font-family: '맑은 고딕', '굴림', Arial, sans-serif, cursive;
 }
 
-a {
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+h3 > select {
+    float: right;
+    margin-right: 8px;
+}
+
+h3 > a {
     color: cornflowerblue;
     text-decoration: none;
+    font-size: medium;
+    float: right;
 }
 
 .tab {
@@ -64,19 +76,19 @@ a {
 }
 
 .item_colored_cell {
-    height:48px;
+    height:32px;
     color: white;
 }
 
 .addon_colored_cell {
     font-size: x-small;
-    height: 40px;
+    height: 24px;
     width: 50%;
     color: white;
 }
 
 .offering_colored_cell {
-    height:24px;
+    height:32px;
     color: white;
 }
 
