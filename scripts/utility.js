@@ -16,3 +16,8 @@ function convertImage ( image, path ) {
     if ( image == null || image == undefined || image == "" ) return '';
     return "<img src='" + path + image + "' width='96px' />";
 }
+
+function convertImage ( image, path, alt ) {
+    if ( image == null || image == undefined || image == "" ) return '';
+    return "<img src='" + path + image + "' width='96px' alt='" + alt + "' title='" + alt + "' />";
+}

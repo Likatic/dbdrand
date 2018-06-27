@@ -3,7 +3,8 @@ body {
 }
 
 .container {
-    max-width: 480px;
+    min-width: 480px;
+    max-width: 560px;
     margin: 0 auto;
 }
 
@@ -94,4 +95,14 @@ h3 > a {
 
 .offering_memo_cell {
     font-size: x-small;
+}
+
+.portraits_list > li {
+    display: inline;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    text-align: center;
+    font-size:x-small;
 }

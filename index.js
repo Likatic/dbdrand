@@ -39,6 +39,13 @@ function initialize () {
     initialize_killer_addons ( function () {
         generate_killer_addon ();
      } );
+
+     initialize_survivors ( function () {
+        generate_survivor_items ();
+     } );
+     initialize_killers ( function () {
+        generate_killer_items ();
+     } );
 }
 
 function generate_survivor_perks () {
@@ -123,12 +130,14 @@ function generate_survivor_offering () {
     var path = './images/survivors/offerings/';
     if ( offering != null && offering != undefined ) {
         document.getElementById('survivor_offering_image').innerHTML = convertImage ( offering.image, path );
+        document.getElementById('survivor_offering_image').style.backgroundColor = convertColor ( offering.color );
         document.getElementById('survivor_offering_name').innerHTML = offering.name;
         document.getElementById('survivor_offering_name').style.backgroundColor = convertColor ( offering.color );
         document.getElementById('survivor_offering_memo').innerHTML = offering.memo;
     }
     else {
         document.getElementById('survivor_offering_image').innerHTML = '';
+        document.getElementById('survivor_offering_image').style.backgroundColor = '#000000';
         document.getElementById('survivor_offering_name').innerHTML = '공물 없음';
         document.getElementById('survivor_offering_name').style.backgroundColor = '#000000';
         document.getElementById('survivor_offering_memo').innerHTML = '공물 없이 시작하세요';
@@ -162,12 +171,14 @@ function generate_killer_offering () {
     var path = './images/killers/offerings/';
     if ( offering != null && offering != undefined ) {
         document.getElementById('killer_offering_image').innerHTML = convertImage ( offering.image, path );
+        document.getElementById('killer_offering_image').style.backgroundColor = convertColor ( offering.color );
         document.getElementById('killer_offering_name').innerHTML = offering.name;
         document.getElementById('killer_offering_name').style.backgroundColor = convertColor ( offering.color );
         document.getElementById('killer_offering_memo').innerHTML = offering.memo;
     }
     else {
         document.getElementById('killer_offering_image').innerHTML = '';
+        document.getElementById('killer_offering_image').style.backgroundColor = '#000000';
         document.getElementById('killer_offering_name').innerHTML = '공물 없음';
         document.getElementById('killer_offering_name').style.backgroundColor = '#000000';
         document.getElementById('killer_offering_memo').innerHTML = '공물 없이 시작하세요';
@@ -211,4 +222,62 @@ function generate_killer_addon () {
         document.getElementById('killer_addon_name_2').innerHTML = "없음";
         document.getElementById('killer_addon_name_2').style.backgroundColor = "#000000";
     }
+}
+
+function generate_survivor_items () {
+    var survs = get_survivors ();
+    var path = './images/survivors/portraits/';
+    var div = document.getElementById ( 'survivor_portraits' );
+
+    for ( var i = 0; i < survs.length; ++i ) {
+        var surv = survs [ i ];
+        div.innerHTML += "<li id='" + surv.name + "'>" + convertImage ( surv.image, path, surv.name ) + "</li>";
+    }
+
+    for ( var i = 0; i < survs.length; ++i ) {
+        document.getElementById ( survs [ i ].name ).style = "opacity: 0.5;";
+    }
+
+    select_survivor ();
+}
+
+function select_survivor () {
+    var survs = get_survivors ();
+    for ( var i = 0; i < survs.length; ++i ) {
+        document.getElementById ( survs [ i ].name ).style = "opacity: 0.5;";
+    }
+
+    var survivor = random_select_survivor ();
+    while ( survivor == null || survivor == undefined )
+        survivor = random_select_killer ();
+    document.getElementById ( survivor.name ).style = "opacity: 1;";
+}
+
+function generate_killer_items () {
+    var kills = get_killers ();
+    var path = './images/killers/portraits/';
+    var div = document.getElementById ( 'killer_portraits' );
+
+    for ( var i = 0; i < kills.length; ++i ) {
+        var killer = kills [ i ];
+        div.innerHTML += "<li id='" + killer.name + "'>" + convertImage ( killer.image, path, killer.name ) + "</li>";
+    }
+
+    for ( var i = 0; i < kills.length; ++i ) {
+        document.getElementById ( kills [ i ].name ).style = "opacity: 0.5;";
+    }
+
+    select_killer ();
+}
+
+function select_killer () {
+    var kills = get_killers ();
+    for ( var i = 0; i < kills.length; ++i ) {
+        document.getElementById ( kills [ i ].name ).style = "opacity: 0.5;";
+    }
+
+    var killer = random_select_killer ();
+    while ( killer == null || killer == undefined )
+        killer = random_select_killer ();
+    document.getElementById ( killer.name ).style = "opacity: 1;";
 }

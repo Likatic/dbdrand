@@ -3,62 +3,62 @@
         {
             "name": "트래퍼",
             "nickname": "덫구",
-            "image": ""
+            "image": "트래퍼.png"
         },
         {
             "name": "힐빌리",
             "nickname": "톱구",
-            "image": ""
+            "image": "힐빌리.png"
         },
         {
             "name": "레이스",
             "nickname": "종구",
-            "image": ""
+            "image": "레이스.png"
         },
         {
             "name": "너스",
             "nickname": "순구",
-            "image": ""
+            "image": "너스.png"
         },
         {
             "name": "해그",
             "nickname": "망구",
-            "image": ""
+            "image": "해그.png"
         },
         {
             "name": "닥터",
             "nickname": "전구",
-            "image": ""
+            "image": "닥터.png"
         },
         {
             "name": "헌트리스",
             "nickname": "토구",
-            "image": ""
+            "image": "헌트리스.png"
         },
         {
             "name": "쉐이프",
             "nickname": "식구",
-            "image": ""
+            "image": "쉐이프.png"
         },
         {
             "name": "카니발",
             "nickname": "준구",
-            "image": ""
+            "image": "카니발.png"
         },
         {
             "name": "나이트메어",
             "nickname": "몽구",
-            "image": ""
+            "image": "나이트메어.png"
         },
         {
             "name": "피그",
             "nickname": "피구,직구",
-            "image": ""
+            "image": "피그.png"
         },
         {
             "name": "클라운",
             "nickname": "방구",
-            "image": ""
+            "image": "클라운.png"
         }
     ]
 }

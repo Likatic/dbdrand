@@ -16,6 +16,9 @@
         <script src="./scripts/killer_perk.js"></script>
         <script src="./scripts/killer_offering.js"></script>
         <script src="./scripts/killer_addon.js"></script>
+        
+        <script src="./scripts/survivor.js"></script>
+        <script src="./scripts/killer.js"></script>
 
         <script src="./index.js"></script>
     </head>
@@ -150,14 +153,24 @@
                 </div>
                       
                 <div id="survivor_select" class="tabContent">
-                    
+                    <h3>생존자 <a href="#" onclick="select_survivor ()">임의 선택</a></h3>
+                    <ul id="survivor_portraits" class="portraits_list">
+
+                    </ul>
                 </div>
                       
                 <div id="killer_select" class="tabContent">
-        
+                    <h3>살인마 <a href="#" onclick="select_killer ()">임의 선택</a></h3>
+                    <ul id="killer_portraits" class="portraits_list">
+                        
+                    </ul>
                 </div>
         </div>
 
-        <p style="text-align:center; font-size:x-small;">Copyright (C) 2018 <a href="https://twitter.com/Daramkun" target="_blank">@Daramkun</a>, Repository to <a href="https://github.com/daramkun/dbdrand" target="_blank">GitHub</a></p>
+        <p style="text-align:center; font-size:x-small;">
+            Copyright (C) 2018 <a href="https://twitter.com/Daramkun" target="_blank">@Daramkun</a>, Repository to <a href="https://github.com/daramkun/dbdrand" target="_blank">GitHub</a>
+            <br />
+            Thanks to <a href="https://twitter.com/tortoise19961" target="_blank">@tortoise19961</a>
+        </p>
     </body>
 </html>
