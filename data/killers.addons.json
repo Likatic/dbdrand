@@ -1098,6 +1098,419 @@
             "color": "갈색",
             "target": "닥터",
             "image": "닥터/단풍나무나이트.png"
+        },
+        {
+            "name": "정원용 갈퀴",
+            "nickname": "",
+            "color": "갈색",
+            "target": "나이트메어",
+            "image": "나이트메어/정원용갈퀴.png"
+        },
+        {
+            "name": "양 그림 블럭",
+            "nickname": "",
+            "color": "갈색",
+            "target": "나이트메어",
+            "image": "나이트메어/양그림블럭.png"
+        },
+        {
+            "name": "양모 셔츠",
+            "nickname": "",
+            "color": "갈색",
+            "target": "나이트메어",
+            "image": "나이트메어/양모셔츠.png"
+        },
+        {
+            "name": "어린 아이가 그린 그림",
+            "nickname": "",
+            "color": "갈색",
+            "target": "나이트메어",
+            "image": "나이트메어/어린아이가그린그림.png"
+        },
+        {
+            "name": "평범한 갈퀴",
+            "nickname": "",
+            "color": "노란색",
+            "target": "나이트메어",
+            "image": "나이트메어/평범한갈퀴.png"
+        },
+        {
+            "name": "초록색 드레스",
+            "nickname": "",
+            "color": "노란색",
+            "target": "나이트메어",
+            "image": "나이트메어/초록색드레스.png"
+        },
+        {
+            "name": "야외용 노끈",
+            "nickname": "",
+            "color": "노란색",
+            "target": "나이트메어",
+            "image": "나이트메어/야외용노끈.png"
+        },
+        {
+            "name": "낸시의 스케치",
+            "nickname": "",
+            "color": "노란색",
+            "target": "나이트메어",
+            "image": "나이트메어/낸시의스케치.png"
+        },
+        {
+            "name": "고양이 그림 블럭",
+            "nickname": "",
+            "color": "노란색",
+            "target": "나이트메어",
+            "image": "나이트메어/고양이그림블럭.png"
+        },
+        {
+            "name": "하늘색 드레스",
+            "nickname": "",
+            "color": "초록색",
+            "target": "나이트메어",
+            "image": "나이트메어/하늘색드레스.png"
+        },
+        {
+            "name": "줄넘기",
+            "nickname": "",
+            "color": "초록색",
+            "target": "나이트메어",
+            "image": "나이트메어/줄넘기.png"
+        },
+        {
+            "name": "유니콘 블럭",
+            "nickname": "",
+            "color": "초록색",
+            "target": "나이트메어",
+            "image": "나이트메어/유니콘블럭.png"
+        },
+        {
+            "name": "낸시의 걸작",
+            "nickname": "",
+            "color": "초록색",
+            "target": "나이트메어",
+            "image": "나이트메어/낸시의걸작.png"
+        },
+        {
+            "name": "그네의 체인",
+            "nickname": "",
+            "color": "초록색",
+            "target": "나이트메어",
+            "image": "나이트메어/그네의체인.png"
+        },
+        {
+            "name": "학급 단체 사진",
+            "nickname": "",
+            "color": "보라색",
+            "target": "나이트메어",
+            "image": "나이트메어/학급단체사진.png"
+        },
+        {
+            "name": "약병",
+            "nickname": "",
+            "color": "보라색",
+            "target": "나이트메어",
+            "image": "나이트메어/약병.png"
+        },
+        {
+            "name": "도료 희석제",
+            "nickname": "",
+            "color": "보라색",
+            "target": "나이트메어",
+            "image": "나이트메어/도료희석제.png"
+        },
+        {
+            "name": "\"Z\"블럭",
+            "nickname": "",
+            "color": "보라색",
+            "target": "나이트메어",
+            "image": "나이트메어/Z블럭.png"
+        },
+        {
+            "name": "빨간 물감 붓",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "나이트메어",
+            "image": "나이트메어/빨간물감붓.png"
+        },
+        {
+            "name": "검은 상자",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "나이트메어",
+            "image": "나이트메어/검은상자.png"
+        },
+        {
+            "name": "식물성 기름",
+            "nickname": "",
+            "color": "갈색",
+            "target": "카니발",
+            "image": "카니발/식물성기름.png"
+        },
+        {
+            "name": "전기톱 줄",
+            "nickname": "",
+            "color": "갈색",
+            "target": "카니발",
+            "image": "카니발/전기톱줄.png"
+        },
+        {
+            "name": "점화 플러그",
+            "nickname": "",
+            "color": "갈색",
+            "target": "카니발",
+            "image": "카니발/점화플러그.png"
+        },
+        {
+            "name": "평범한 윤활유",
+            "nickname": "",
+            "color": "노란색",
+            "target": "카니발",
+            "image": "카니발/평범한윤활유.png"
+        },
+        {
+            "name": "칼날의 흔적",
+            "nickname": "",
+            "color": "노란색",
+            "target": "카니발",
+            "image": "카니발/칼날의흔적.png"
+        },
+        {
+            "name": "칠리",
+            "nickname": "",
+            "color": "노란색",
+            "target": "카니발",
+            "image": "카니발/칠리.png"
+        },
+        {
+            "name": "심도계",
+            "nickname": "",
+            "color": "노란색",
+            "target": "카니발",
+            "image": "카니발/심도계.png"
+        },
+        {
+            "name": "수제 소음기",
+            "nickname": "",
+            "color": "노란색",
+            "target": "카니발",
+            "image": "카니발/수제소음기.png"
+        },
+        {
+            "name": "속도 제어기",
+            "nickname": "",
+            "color": "노란색",
+            "target": "카니발",
+            "image": "카니발/속도제어기.png"
+        },
+        {
+            "name": "소름끼치는 체인",
+            "nickname": "",
+            "color": "노란색",
+            "target": "카니발",
+            "image": "카니발/소름끼치는체인.png"
+        },
+        {
+            "name": "뇌관 전구",
+            "nickname": "",
+            "color": "노란색",
+            "target": "카니발",
+            "image": "카니발/뇌관전구.png"
+        },
+        {
+            "name": "긴 가이드 바",
+            "nickname": "",
+            "color": "노란색",
+            "target": "카니발",
+            "image": "카니발/긴가이드바.png"
+        },
+        {
+            "name": "카뷰레터 개조 설명서",
+            "nickname": "",
+            "color": "초록색",
+            "target": "카니발",
+            "image": "카니발/카뷰레터개조설명서.png"
+        },
+        {
+            "name": "야수의 흔적",
+            "nickname": "",
+            "color": "초록색",
+            "target": "카니발",
+            "image": "카니발/야수의흔적.png"
+        },
+        {
+            "name": "녹슨 체인",
+            "nickname": "",
+            "color": "초록색",
+            "target": "카니발",
+            "image": "카니발/녹슨체인.png"
+        },
+        {
+            "name": "구리스",
+            "nickname": "",
+            "color": "초록색",
+            "target": "카니발",
+            "image": "카니발/구리스.png"
+        },
+        {
+            "name": "경량 섀시",
+            "nickname": "",
+            "color": "초록색",
+            "target": "카니발",
+            "image": "카니발/경량섀시.png"
+        },
+        {
+            "name": "수상 경력을 자랑하는 칠리",
+            "nickname": "",
+            "color": "보라색",
+            "target": "카니발",
+            "image": "카니발/수상경력을자랑하는칠리.png"
+        },
+        {
+            "name": "그을린 사슬",
+            "nickname": "",
+            "color": "보라색",
+            "target": "카니발",
+            "image": "카니발/그을린사슬.png"
+        },
+        {
+            "name": "죽은 파리 진흙",
+            "nickname": "",
+            "color": "갈색",
+            "target": "해그",
+            "image": "해그/죽은파리진흙.png"
+        },
+        {
+            "name": "줄기 목걸이",
+            "nickname": "",
+            "color": "갈색",
+            "target": "해그",
+            "image": "해그/줄기목걸이.png"
+        },
+        {
+            "name": "달걀 껍질 가루",
+            "nickname": "",
+            "color": "갈색",
+            "target": "해그",
+            "image": "해그/달걀껍질가루.png"
+        },
+        {
+            "name": "늪지대 물",
+            "nickname": "",
+            "color": "갈색",
+            "target": "해그",
+            "image": "해그/늪지대물.png"
+        },
+        {
+            "name": "피섞인 물",
+            "nickname": "",
+            "color": "노란색",
+            "target": "해그",
+            "image": "해그/피섞인물.png"
+        },
+        {
+            "name": "잠자리 날개",
+            "nickname": "",
+            "color": "노란색",
+            "target": "해그",
+            "image": "해그/잠자리날개.png"
+        },
+        {
+            "name": "사이프러스 목걸이",
+            "nickname": "",
+            "color": "노란색",
+            "target": "해그",
+            "image": "해그/사이프러스목걸이.png"
+        },
+        {
+            "name": "달걀 껍질 반쪽",
+            "nickname": "",
+            "color": "노란색",
+            "target": "해그",
+            "image": "해그/달걀껍질반쪽.png"
+        },
+        {
+            "name": "갯버들꽃",
+            "nickname": "",
+            "color": "노란색",
+            "target": "해그",
+            "image": "해그/갯버들꽃.png"
+        },
+        {
+            "name": "피투성이 진흙",
+            "nickname": "",
+            "color": "초록색",
+            "target": "해그",
+            "image": "해그/피투성이진흙.png"
+        },
+        {
+            "name": "버드나무 화환",
+            "nickname": "",
+            "color": "초록색",
+            "target": "해그",
+            "image": "해그/버드나무화환.png"
+        },
+        {
+            "name": "말린 매미",
+            "nickname": "",
+            "color": "초록색",
+            "target": "해그",
+            "image": "해그/말린매미.png"
+        },
+        {
+            "name": "늪지 난초 목걸이",
+            "nickname": "",
+            "color": "초록색",
+            "target": "해그",
+            "image": "해그/늪지난초목걸이.png"
+        },
+        {
+            "name": "깨진 거북알",
+            "nickname": "",
+            "color": "초록색",
+            "target": "해그",
+            "image": "해그/깨진거북알.png"
+        },
+        {
+            "name": "흉터난 손",
+            "nickname": "",
+            "color": "보라색",
+            "target": "해그",
+            "image": "해그/흉터난손.png"
+        },
+        {
+            "name": "심하게 훼손된 귀",
+            "nickname": "",
+            "color": "보라색",
+            "target": "해그",
+            "image": "해그/심하게훼손된귀.png"
+        },
+        {
+            "name": "녹슨 족쇄",
+            "nickname": "",
+            "color": "보라색",
+            "target": "해그",
+            "image": "해그/녹슨족쇄.png"
+        },
+        {
+            "name": "노파의 심장",
+            "nickname": "",
+            "color": "보라색",
+            "target": "해그",
+            "image": "해그/노파의심장.png"
+        },
+        {
+            "name": "축축한 신발",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "해그",
+            "image": "해그/축축한신발.png"
+        },
+        {
+            "name": "민트색 누더기",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "해그",
+            "image": "해그/민트색누더기.png"
         }
     ]
 }
