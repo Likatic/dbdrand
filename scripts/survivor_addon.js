@@ -9,7 +9,7 @@ function initialize_survivor_addons ( loadComplete ) {
     survivor_addons_dict [ "지도" ] = new Array ();
     survivor_addons_dict [ "열쇠" ] = new Array ();
 
-    $.getJSON ( 'https://raw.githubusercontent.com/daramkun/dbdrand/master/data/survivors.addons.json', function ( json ) {
+    $.getJSON ( 'data/survivors.addons.json', function ( json ) {
         survivor_addons = json.survivor_addons;
 
         for ( var i = 0; i < survivor_addons.length; ++i ) {

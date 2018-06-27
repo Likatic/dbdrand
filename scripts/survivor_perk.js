@@ -1,7 +1,7 @@
 var survivor_perks;
 
 function initialize_survivor_perks ( loadComplete ) {
-    $.getJSON ( 'https://raw.githubusercontent.com/daramkun/dbdrand/master/data/survivors.perks.json', function ( json ) {
+    $.getJSON ( 'data/survivors.perks.json', function ( json ) {
         survivor_perks = json.survivor_perks;
         loadComplete ();
     } );

@@ -5,378 +5,378 @@
             "nickname": "브랜뉴",
             "color": "붉은색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/새로운부품.png"
         },
         {
             "name": "쇠톱",
             "nickname": "",
             "color": "초록색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/쇠톱.png"
         },
         {
             "name": "그립 렌치",
             "nickname": "",
             "color": "노란색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/그립렌치.png"
         },
         {
             "name": "보호 장갑",
             "nickname": "",
             "color": "노란색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/보호장갑.png"
         },
         {
             "name": "설명",
             "nickname": "",
             "color": "노란색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/설명.png"
         },
         {
             "name": "와이어 스풀",
             "nickname": "",
             "color": "노란색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/와이어스풀.png"
         },
         {
             "name": "커팅용 와이어",
             "nickname": "",
             "color": "노란색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/커팅용와이어.png"
         },
         {
             "name": "회전고리 소켓",
             "nickname": "",
             "color": "노란색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/회전고리소켓.png"
         },
         {
             "name": "깨끗한 천",
             "nickname": "",
             "color": "갈색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/깨끗한천.png"
         },
         {
             "name": "스프링 클램프",
             "nickname": "",
             "color": "갈색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/스프링클램프.png"
         },
         {
             "name": "잡동사니",
             "nickname": "",
             "color": "갈색",
             "target": "공구상자",
-            "image": ""
+            "image": "공구상자/잡동사니.png"
         },
         {
             "name": "열쇠고리",
             "nickname": "",
             "color": "보라색",
             "target": "열쇠",
-            "image": ""
+            "image": "열쇠/열쇠고리.png"
         },
         {
             "name": "핏빛 호박",
             "nickname": "",
             "color": "보라색",
             "target": "열쇠",
-            "image": ""
+            "image": "열쇠/핏빛호박.png"
         },
         {
             "name": "하얀 빛깔 유리",
             "nickname": "",
             "color": "보라색",
             "target": "열쇠",
-            "image": ""
+            "image": "열쇠/하얀빛깔유리.png"
         },
         {
             "name": "황금 토큰",
             "nickname": "",
             "color": "초록색",
             "target": "열쇠",
-            "image": ""
+            "image": "열쇠/황금토큰.png"
         },
         {
             "name": "묵주",
             "nickname": "",
             "color": "노란색",
             "target": "열쇠",
-            "image": ""
+            "image": "열쇠/묵주.png"
         },
         {
             "name": "침식된 토큰",
             "nickname": "",
             "color": "노란색",
             "target": "열쇠",
-            "image": ""
+            "image": "열쇠/침식된토큰.png"
         },
         {
             "name": "흠집 난 진주",
             "nickname": "",
             "color": "노란색",
             "target": "열쇠",
-            "image": ""
+            "image": "열쇠/흠집난진주.png"
         },
         {
             "name": "의식용 매듭",
             "nickname": "",
             "color": "갈색",
             "target": "열쇠",
-            "image": ""
+            "image": "열쇠/의식용매듭.png"
         },
         {
             "name": "수정 구슬",
             "nickname": "",
             "color": "보라색",
             "target": "지도",
-            "image": ""
+            "image": "지도/수정구슬.png"
         },
         {
             "name": "검은색 비단 끈",
             "nickname": "",
             "color": "초록색",
             "target": "지도",
-            "image": ""
+            "image": "지도/검은색비단끈.png"
         },
         {
             "name": "이상한 도장",
             "nickname": "",
             "color": "초록색",
             "target": "지도",
-            "image": ""
+            "image": "지도/이상한도장.png"
         },
         {
             "name": "노란색 전선",
             "nickname": "",
             "color": "노란색",
             "target": "지도",
-            "image": ""
+            "image": "지도/노란색전선.png"
         },
         {
             "name": "붉은색 노끈",
             "nickname": "",
             "color": "노란색",
             "target": "지도",
-            "image": ""
+            "image": "지도/붉은색노끈.png"
         },
         {
             "name": "유리 구슬",
             "nickname": "",
             "color": "노란색",
             "target": "지도",
-            "image": ""
+            "image": "지도/유리구슬.png"
         },
         {
             "name": "지연성 젤리",
             "nickname": "",
             "color": "노란색",
             "target": "지도",
-            "image": ""
+            "image": "지도/지연성젤리.png"
         },
         {
             "name": "특이한 도장",
             "nickname": "",
             "color": "노란색",
             "target": "지도",
-            "image": ""
+            "image": "지도/특이한도장.png"
         },
         {
             "name": "지도 부록",
             "nickname": "",
             "color": "갈색",
             "target": "지도",
-            "image": ""
+            "image": "지도/지도부록.png"
         },
         {
             "name": "항출혈 주사기",
             "nickname": "",
             "color": "붉은색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/항출혈주사기.png"
         },
         {
             "name": "항출혈제",
             "nickname": "",
             "color": "보라색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/항출혈제.png"
         },
         {
             "name": "수술용 봉합선",
             "nickname": "",
             "color": "초록색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/수술용봉합선.png"
         },
         {
             "name": "압박 붕대",
             "nickname": "",
             "color": "초록색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/압박붕대.png"
         },
         {
             "name": "젤 패드",
             "nickname": "",
             "color": "초록색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/젤패드.png"
         },
         {
             "name": "거즈 두루마리",
             "nickname": "",
             "color": "노란색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/거즈두루마리.png"
         },
         {
             "name": "스펀지",
             "nickname": "",
             "color": "노란색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/스펀지.png"
         },
         {
             "name": "실과 바늘",
             "nickname": "",
             "color": "노란색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/실과바늘.png"
         },
         {
             "name": "의료용 가위",
             "nickname": "",
             "color": "노란색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/의료용가위.png"
         },
         {
             "name": "자기 접착 붕대",
             "nickname": "",
             "color": "노란색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/자기접착붕대.png"
         },
         {
             "name": "다공성 반창고",
             "nickname": "",
             "color": "갈색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/다공성반창고.png"
         },
         {
             "name": "붕대",
             "nickname": "",
             "color": "갈색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/붕대.png"
         },
         {
             "name": "작업용 장갑",
             "nickname": "",
             "color": "갈색",
             "target": "구급상자",
-            "image": ""
+            "image": "구급상자/작업용장갑.png"
         },
         {
             "name": "정체불명의 전구",
             "nickname": "",
             "color": "붉은색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/정체불명의전구.png"
         },
         {
             "name": "최고급 수정 렌즈",
             "nickname": "",
             "color": "보라색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/최고급수정렌즈.png"
         },
         {
             "name": "강력한 할로겐 전구",
             "nickname": "",
             "color": "초록색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/강력한할로겐전구.png"
         },
         {
             "name": "오래 가는 배터리",
             "nickname": "",
             "color": "초록색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/오래가는배터리.png"
         },
         {
             "name": "고무 손잡이",
             "nickname": "",
             "color": "노란색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/고무손잡이.png"
         },
         {
             "name": "대용량 배터리",
             "nickname": "",
             "color": "노란색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/대용량배터리.png"
         },
         {
             "name": "저전압 필라멘트",
             "nickname": "",
             "color": "노란색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/저전압필라멘트.png"
         },
         {
             "name": "집중반사경",
             "nickname": "",
             "color": "노란색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/집중반사경.png"
         },
         {
             "name": "포커스 렌즈",
             "nickname": "",
             "color": "노란색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/포커스렌즈.png"
         },
         {
             "name": "가죽 손잡이",
             "nickname": "",
             "color": "갈색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/가죽손잡이.png"
         },
         {
             "name": "강력 전구",
             "nickname": "",
             "color": "갈색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/강력전구.png"
         },
         {
             "name": "배터리",
             "nickname": "",
             "color": "갈색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/배터리.png"
         },
         {
             "name": "와이드 렌즈",
             "nickname": "",
             "color": "갈색",
             "target": "손전등",
-            "image": ""
+            "image": "손전등/와이드렌즈.png"
         }
     ]
 }

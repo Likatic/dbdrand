@@ -14,5 +14,5 @@ function convertNickname ( nickname ) {
 
 function convertImage ( image, path ) {
     if ( image == null || image == undefined || image == "" ) return '';
-    return "<img src='" + path + image + "' />";
+    return "<img src='" + path + image + "' width='96px' />";
 }

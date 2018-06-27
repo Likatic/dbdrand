@@ -19,7 +19,7 @@
             "nickname": "",
             "color": "보라색",
             "for": "펭민",
-            "image": ".png"
+            "image": "기민함.png"
         },
         {
             "name": "나와 함께 춤을",
@@ -40,7 +40,7 @@
             "nickname": "",
             "color": "보라색",
             "for": "",
-            "image": "06.png"
+            "image": "등골이오싹해.png"
         },
         {
             "name": "리더",
@@ -61,7 +61,7 @@
             "nickname": "",
             "color": "보라색",
             "for": "",
-            "image": ".png"
+            "image": "불길한예감.png"
         },
         {
             "name": "불침번",
@@ -89,7 +89,7 @@
             "nickname": "",
             "color": "보라색",
             "for": "니아 칼슨",
-            "image": ".png"
+            "image": "스트리트와이즈.png"
         },
         {
             "name": "식물학 지식",
@@ -117,7 +117,7 @@
             "nickname": "",
             "color": "보라색",
             "for": "",
-            "image": ".png"
+            "image": "아무도버려두지않아.png"
         },
         {
             "name": "약제학",
@@ -131,14 +131,14 @@
             "nickname": "",
             "color": "보라색",
             "for": "",
-            "image": ".png"
+            "image": "어두운감각.png"
         },
         {
             "name": "어반 이베이젼",
             "nickname": "",
             "color": "보라색",
             "for": "니아 칼슨",
-            "image": ".png"
+            "image": "어반이베이젼.png"
         },
         {
             "name": "오픈핸디드",
@@ -152,7 +152,7 @@
             "nickname": "",
             "color": "보라색",
             "for": "",
-            "image": ".png"
+            "image": "우리는해낼거야.png"
         },
         {
             "name": "유연함",
@@ -166,14 +166,14 @@
             "nickname": "",
             "color": "보라색",
             "for": "로리 스트로드",
-            "image": ".png"
+            "image": "유일한생존자.png"
         },
         {
             "name": "이런 일이 일어나다니",
             "nickname": "",
             "color": "보라색",
             "for": "",
-            "image": "이런일이 일어나다니.png"
+            "image": "이런일이일어나다니.png"
         },
         {
             "name": "자가 치료",
@@ -257,7 +257,7 @@
             "nickname": "",
             "color": "보라색",
             "for": "",
-            "image": ".png"
+            "image": "회복력.png"
         },
         {
             "name": "희망",
@@ -278,14 +278,14 @@
             "nickname": "",
             "color": "초록색",
             "for": "",
-            "image": ".png"
+            "image": "경량화.png"
         },
         {
             "name": "공감",
             "nickname": "",
             "color": "초록색",
             "for": "클로뎃 모렐",
-            "image": ".png"
+            "image": "공감.png"
         },
         {
             "name": "굳건한 의지",
@@ -327,7 +327,7 @@
             "nickname": "",
             "color": "초록색",
             "for": "",
-            "image": ".png"
+            "image": "약탈자의본능.png"
         },
         {
             "name": "우리는 영원히 살거야",
@@ -348,7 +348,7 @@
             "nickname": "",
             "color": "초록색",
             "for": "",
-            "image": ".png"
+            "image": "작은사냥감.png"
         },
         {
             "name": "정신 차려!",
@@ -369,7 +369,7 @@
             "nickname": "",
             "color": "초록색",
             "for": "윌리엄 빌 오버백",
-            "image": ".png"
+            "image": "홀로남겨진자.png"
         }
     ]
 }

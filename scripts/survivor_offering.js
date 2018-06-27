@@ -1,7 +1,7 @@
 var survivor_offerings;
 
 function initialize_survivor_offerings ( loadComplete ) {
-    $.getJSON ( 'https://raw.githubusercontent.com/daramkun/dbdrand/master/data/survivors.offerings.json', function ( json ) {
+    $.getJSON ( 'data/survivors.offerings.json', function ( json ) {
         survivor_offerings = json.survivor_offerings;
         loadComplete ();
     } );

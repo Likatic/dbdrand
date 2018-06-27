@@ -4,133 +4,133 @@
             "name": "만능 열쇠",
             "color": "붉은색",
             "type": "열쇠",
-            "image": ""
+            "image": "만능열쇠.png"
         },
         {
             "name": "무지개 지도",
             "color": "붉은색",
             "type": "지도",
-            "image": ""
+            "image": "무지개지도.png"
         },
         {
             "name": "경관의 구급상자",
             "color": "보라색",
             "type": "구급상자",
-            "image": ""
+            "image": "경관의구급상자.png"
         },
         {
             "name": "기술자의 공구상자",
             "color": "보라색",
             "type": "공구상자",
-            "image": ""
+            "image": "기술자의공구상자.png"
         },
         {
             "name": "다용도 손전등",
             "color": "보라색",
             "type": "손전등",
-            "image": ""
+            "image": "다용도손전등.png"
         },
         {
             "name": "무뎌진 열쇠",
             "color": "보라색",
             "type": "열쇠",
-            "image": ""
+            "image": "무뎌진열쇠.png"
         },
         {
             "name": "알렉스의 공구상자",
             "color": "보라색",
             "type": "공구상자",
-            "image": ""
+            "image": "알렉스의공구상자.png"
         },
         {
             "name": "겨울 폭죽",
-            "color": "보라색",
+            "color": "초록색",
             "type": "폭죽",
-            "image": ""
+            "image": "겨울폭죽.png"
         },
         {
             "name": "기계공의 공구상자",
-            "color": "보라색",
+            "color": "초록색",
             "type": "공구상자",
-            "image": ""
+            "image": "기계공의공구상자.png"
         },
         {
             "name": "대형 공구상자",
-            "color": "보라색",
+            "color": "초록색",
             "type": "공구상자",
-            "image": ""
+            "image": "대형공구상자.png"
         },
         {
             "name": "부숴진 열쇠",
-            "color": "보라색",
+            "color": "초록색",
             "type": "열쇠",
-            "image": ""
+            "image": "부숴진열쇠.png"
         },
         {
             "name": "비상용 구급상자",
-            "color": "보라색",
+            "color": "초록색",
             "type": "구급상자",
-            "image": ""
+            "image": "비상용구급상자.png"
         },
         {
             "name": "운동용 손전등",
-            "color": "보라색",
+            "color": "초록색",
             "type": "손전등",
-            "image": ""
+            "image": "운동용손전등.png"
         },
         {
             "name": "지도",
-            "color": "보라색",
+            "color": "초록색",
             "type": "지도",
-            "image": ""
+            "image": "지도.png"
         },
         {
             "name": "공구상자",
             "color": "노란색",
             "type": "공구상자",
-            "image": ""
+            "image": "공구상자.png"
         },
         {
             "name": "구급상자",
             "color": "노란색",
             "type": "구급상자",
-            "image": ""
+            "image": "구급상자.png"
         },
         {
             "name": "도깨비불",
             "color": "노란색",
             "type": "손전등",
-            "image": ""
+            "image": "도깨비불.png"
         },
         {
             "name": "손전등",
             "color": "노란색",
             "type": "손전등",
-            "image": ""
+            "image": "손전등.png"
         },
         {
             "name": "낡은 공구상자",
             "color": "갈색",
             "type": "공구상자",
-            "image": ""
+            "image": "낡은공구상자.png"
         },
         {
             "name": "중국식 폭죽",
             "color": "갈색",
             "type": "폭죽",
-            "image": ""
+            "image": "중국식폭죽.png"
         },
         {
             "name": "캠핑용 구급상자",
             "color": "갈색",
             "type": "구급상자",
-            "image": ""
+            "image": "캠핑용구급상자.png"
         },
         {
             "name": "할로윈 점심 도시락",
             "color": "갈색",
             "type": "구급상자",
-            "image": ""
+            "image": "할로윈점심도시락.png"
         }
     ]
 }
