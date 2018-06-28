@@ -20,11 +20,15 @@ function initialize_killer_addons ( loadComplete ) {
 function random_select_killer_addons ( num, target ) {
     var returnArray = new Array ();
 
+    if ( killer_addons_dict [ target ] == null || killer_addons_dict [ target ] == undefined )
+        return [ null, null ];
+
     while ( returnArray.length != num ) {
         var randomValue = Math.round ( Math.random () * killer_addons_dict [ target ].length );
         var addon = killer_addons_dict [ target ] [ randomValue ];
-        if ( addon == null || addon == undefined || returnArray.indexOf ( addon ) > -1 || addon.target != target ) {
-            continue;
+        if ( returnArray.indexOf ( addon ) > -1 ) {
+            if ( addon != null && addon != undefined )
+                continue;
         }
         returnArray.push ( addon );
     }
