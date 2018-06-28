@@ -20,11 +20,16 @@ function initialize_survivor_addons ( loadComplete ) {
 function random_select_survivor_addons ( num, target ) {
     var returnArray = new Array ();
 
+    if ( survivor_addons_dict [ target ] == null || survivor_addons_dict [ target ] == undefined )
+        return [ null, null ];
+
     while ( returnArray.length != num ) {
         var randomValue = Math.round ( Math.random () * survivor_addons_dict [ target ].length );
         var addon = survivor_addons_dict [ target ] [ randomValue ];
-        if ( addon == null || addon == undefined || returnArray.indexOf ( addon ) > -1 || addon.target != target ) {
-            continue;
+
+        if ( returnArray.indexOf ( addon ) > -1 ) {
+            if ( addon != null && addon != undefined )
+                continue;
         }
         returnArray.push ( addon );
     }

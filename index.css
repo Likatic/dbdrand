@@ -75,6 +75,12 @@ h3 > button {
     to {opacity: 1;}
 }
 
+.image_cell {
+    height: 102px;
+    margin: 0px;
+    padding: 0px;
+}
+
 .tableClass {
     width: 100%;
     text-align: center;
@@ -110,6 +116,7 @@ h3 > button {
 
 .offering_memo_cell {
     font-size: x-small;
+    height: 16px;
 }
 
 .portraits_list {
