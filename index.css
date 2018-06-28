@@ -5,9 +5,19 @@ body {
 }
 
 .container {
-    min-width: 506px;
+    min-width: 460px;
     max-width: 610px;
     margin: 0 auto;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+h1 {
+    font-size:medium;
+    font-weight: bolder;
 }
 
 h3 > select {
