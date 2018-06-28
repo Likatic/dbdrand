@@ -293,6 +293,7 @@ function select_survivor () {
     while ( survivor == null || survivor == undefined )
         survivor = random_select_killer ();
     document.getElementById ( survivor.name ).style = "opacity: 1;";
+    document.getElementById ( 'survivor_name' ).innerHTML = survivor.name;
 }
 
 function generate_killer_portraits () {
@@ -322,4 +323,7 @@ function select_killer () {
     while ( killer == null || killer == undefined )
         killer = random_select_killer ();
     document.getElementById ( killer.name ).style = "opacity: 1;";
+    document.getElementById ( 'killer_name' ).innerHTML = killer.name;
+    if ( killer.nickname != null && killer.nickname != undefined )
+        document.getElementById ( 'killer_name' ).innerHTML += "<sub>(" + killer.nickname + ")</sub>";
 }

@@ -119,6 +119,12 @@ h3 > button {
     height: 16px;
 }
 
+.name_tag {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
 .portraits_list {
     padding: 0px;
     margin-left: auto;
