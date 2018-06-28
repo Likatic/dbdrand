@@ -25,11 +25,14 @@ h3 > select {
     margin-right: 8px;
 }
 
-h3 > a {
+h3 > button {
+    background-color: transparent;
+    border: none;
     color: cornflowerblue;
     text-decoration: none;
     font-size: medium;
     float: right;
+    cursor: pointer;
 }
 
 .tab {

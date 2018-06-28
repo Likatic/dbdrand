@@ -29,18 +29,18 @@
 
     <body onload="initialize ()">
         <div class="container">
-            <h1 style="text-align: center;">데드 바이 데이라이트 랜덤 퍽</h1>
-
             <div class="tab">
                 <button class="tabLinks" id="defaultButton" onclick="goToTab ( event, 'survivor' )">생존자</button>
                 <button class="tabLinks" onclick="goToTab ( event, 'killer' )">살인마</button>
-                <button class="tabLinks" onclick="goToTab ( event, 'survivor_select' )">생존자 임의선택</button>
-                <button class="tabLinks" onclick="goToTab ( event, 'killer_select' )">살인마 임의선택</button>
+                <button class="tabLinks" onclick="goToTab ( event, 'survivor_select' )">생존자 선택</button>
+                <button class="tabLinks" onclick="goToTab ( event, 'killer_select' )">살인마 선택</button>
+
+                <span style="float:right; font-weight:bolder; color: black; padding: 8px 10px; outline: none; background-color: inherit; border: none;">데바데 랜덤 퍽</span>
             </div>
     
             <!-- 생존자 -->
             <div id="survivor" class="tabContent">
-                <h3>기술 <a href="#" onclick="generate_survivor_perks ()">임의 기술 생성</a></h3>
+                <h3>기술 <button onclick="generate_survivor_perks ()">임의 기술 생성</button></h3>
                 <table class="tableClass">
                     <tr>
                         <td id="survivor_perk_image_1"></td>
@@ -62,7 +62,7 @@
                     </tr>
                 </table>
     
-                <h3>공물 <a href="#" onclick="generate_survivor_offering ()">임의 공물 생성</a></h3>
+                <h3>공물 <button onclick="generate_survivor_offering ()">임의 공물 생성</button></h3>
                 <table class="tableClass">
                     <tr>
                         <td id="survivor_offering_image"></td>
@@ -75,7 +75,7 @@
                     </tr>
                 </table>
     
-                <h3>아이템 및 애드온 <a href="#" onclick="generate_survivor_item ()">임의 아이템 생성</a></h3>
+                <h3>아이템 및 애드온 <button onclick="generate_survivor_item ()">임의 아이템 생성</button></h3>
                 <table class="tableClass">
                     <tr>
                         <td id="survivor_item_image"></td>
@@ -98,7 +98,7 @@
             
             <!-- 살인마 -->
             <div id="killer" class="tabContent">
-                <h3>기술 <a href="#" onclick="generate_killer_perks ()">임의 기술 생성</a></h3>
+                <h3>기술 <button onclick="generate_killer_perks ()">임의 기술 생성</button></h3>
                 <table class="tableClass">
                     <tr>
                         <td id="killer_perk_image_1"></td>
@@ -120,7 +120,7 @@
                     </tr>
                 </table>
     
-                <h3>공물 <a href="#" onclick="generate_killer_offering ()">임의 공물 생성</a></h3>
+                <h3>공물 <button onclick="generate_killer_offering ()">임의 공물 생성</button></h3>
                 <table class="tableClass">
                     <tr>
                         <td id="killer_offering_image"></td>
@@ -133,7 +133,7 @@
                     </tr>
                 </table>
     
-                <h3>애드온 <a href="#" onclick="generate_killer_addon ()">임의 애드온 생성</a>
+                <h3>애드온 <button onclick="generate_killer_addon ()">임의 애드온 생성</button>
                 <select id="killer_selector">
                     <option value="트래퍼">트래퍼</option>
                     <option value="힐빌리">힐빌리</option>
@@ -148,6 +148,7 @@
                     <option value="피그">피그</option>
                     <option value="클라운">클라운</option>
                 </select></h3>
+                
                 <table class="tableClass">
                     <tr>
                         <td id="killer_addon_image_1"></td>
@@ -158,11 +159,13 @@
                         <td id="killer_addon_name_2" class="addon_colored_cell"></td>
                     </tr>
                 </table>
+            
+                <p style="text-align: center; font-size: x-small;">※ 클라운은 현재 랜덤 애드온 생성을 지원하지 않음.</p>
             </div>
                 
             <!-- 생존자 임의선택 -->
             <div id="survivor_select" class="tabContent">
-                <h3>생존자 <a href="#" onclick="select_survivor ()">임의 선택</a></h3>
+                <h3>생존자 <button onclick="select_survivor ()">임의 선택</button></h3>
                 <ul id="survivor_portraits" class="portraits_list">
 
                 </ul>
@@ -170,17 +173,17 @@
                 
             <!-- 살인마 임의선택 -->
             <div id="killer_select" class="tabContent">
-                <h3>살인마 <a href="#" onclick="select_killer ()">임의 선택</a></h3>
+                <h3>살인마 <button onclick="select_killer ()">임의 선택</button></h3>
                 <ul id="killer_portraits" class="portraits_list">
                     
                 </ul>
             </div>
-        </div>
 
-        <p style="text-align:center; font-size:x-small;">
-            Copyright (C) 2018 <a href="https://twitter.com/Daramkun" target="_blank">@Daramkun</a>, Repository to <a href="https://github.com/daramkun/dbdrand" target="_blank">GitHub</a>
-            <br />
-            Thanks to <a href="https://twitter.com/tortoise19961" target="_blank">@tortoise19961</a>
-        </p>
+            <p style="text-align:center; font-size:x-small;">
+                Copyright (C) 2018 <a href="https://twitter.com/Daramkun" target="_blank">@Daramkun</a>, Repository to <a href="https://github.com/daramkun/dbdrand" target="_blank">GitHub</a>
+                <br />
+                Thanks to <a href="https://twitter.com/tortoise19961" target="_blank">@tortoise19961</a>
+            </p>
+        </div>
     </body>
 </html>
