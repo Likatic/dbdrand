@@ -9,7 +9,7 @@ function initialize_killer_offerings ( loadComplete ) {
 }
 
 function random_select_killer_offering () {
-    var randomValue = Math.round ( Math.random () * ( killer_offerings.length + 2 ) );
+    var randomValue = Math.round ( Math.random () * ( killer_offerings.length + 1 ) );
     return killer_offerings [ randomValue ];
 }
 

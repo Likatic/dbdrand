@@ -12,7 +12,7 @@ function random_select_survivor_perks ( num ) {
     var returnArray = new Array ();
 
     while ( returnArray.length != num ) {
-        var randomValue = Math.round ( Math.random () * survivor_perks.length );
+        var randomValue = Math.round ( Math.random () * ( survivor_perks.length - 1 ) );
         var perk = survivor_perks [ randomValue ];
         if ( perk == null || perk == undefined || returnArray.indexOf ( perk ) > -1 ) {
             continue;

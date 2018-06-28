@@ -11,6 +11,6 @@ function initialize_killers ( loadComplete ) {
 function get_killers () { return killers; }
 
 function random_select_killer () {
-    var randomValue = Math.round ( Math.random () * killers.length );
+    var randomValue = Math.round ( Math.random () * ( killers.length - 1 ) );
     return killers [ randomValue ];
 }

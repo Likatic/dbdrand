@@ -12,7 +12,7 @@ function random_select_killer_perks ( num ) {
     var returnArray = new Array ();
 
     while ( returnArray.length != num ) {
-        var randomValue = Math.round ( Math.random () * killer_perks.length );
+        var randomValue = Math.round ( Math.random () * ( killer_perks.length - 1 ) );
         var perk = killer_perks [ randomValue ];
         if ( perk == null || perk == undefined || returnArray.indexOf ( perk ) > -1 ) {
             continue;

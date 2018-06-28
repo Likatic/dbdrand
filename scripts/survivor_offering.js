@@ -9,7 +9,7 @@ function initialize_survivor_offerings ( loadComplete ) {
 }
 
 function random_select_survivor_offering () {
-    var randomValue = Math.round ( Math.random () * ( survivor_offerings.length + 2 ) );
+    var randomValue = Math.round ( Math.random () * ( survivor_offerings.length + 1 ) );
     return survivor_offerings [ randomValue ];
 }
 
