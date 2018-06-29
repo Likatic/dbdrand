@@ -1511,6 +1511,146 @@
             "color": "붉은색",
             "target": "해그",
             "image": "해그/민트색누더기.png"
+        },
+        {
+            "name": "로빈의 깃털",
+            "nickname": "",
+            "color": "갈색",
+            "target": "클라운",
+            "image": "클라운/로빈의깃털.png"
+        },
+        {
+            "name": "악취를 풍기는 신발 안창",
+            "nickname": "",
+            "color": "갈색",
+            "target": "클라운",
+            "image": "클라운/악취를풍기는신발안창.png"
+        },
+        {
+            "name": "에테르 5 VOL%",
+            "nickname": "",
+            "color": "갈색",
+            "target": "클라운",
+            "image": "클라운/에테르5VOL%.png"
+        },
+        {
+            "name": "행사용 핑거리스 장갑",
+            "nickname": "",
+            "color": "갈색",
+            "target": "클라운",
+            "image": "클라운/행사용핑거리스장갑.png"
+        },
+        {
+            "name": "찌르레기 깃털",
+            "nickname": "",
+            "color": "노란색",
+            "target": "클라운",
+            "image": "클라운/찌르레기깃털.png"
+        },
+        {
+            "name": "용매 주전자",
+            "nickname": "",
+            "color": "노란색",
+            "target": "클라운",
+            "image": "클라운/용매주전자.png"
+        },
+        {
+            "name": "등유통",
+            "nickname": "",
+            "color": "노란색",
+            "target": "클라운",
+            "image": "클라운/등유통.png"
+        },
+        {
+            "name": "두꺼운 코르크 마개",
+            "nickname": "",
+            "color": "노란색",
+            "target": "클라운",
+            "image": "클라운/두꺼운코르크마개.png"
+        },
+        {
+            "name": "끈적한 탄산음료 병",
+            "nickname": "",
+            "color": "노란색",
+            "target": "클라운",
+            "image": "클라운/끈적한탄산음료병.png"
+        },
+        {
+            "name": "황산 유리병",
+            "nickname": "",
+            "color": "초록색",
+            "target": "클라운",
+            "image": "클라운/황산유리병.png"
+        },
+        {
+            "name": "표백제 플라스크",
+            "nickname": "",
+            "color": "초록색",
+            "target": "클라운",
+            "image": "클라운/표백제플라스크.png"
+        },
+        {
+            "name": "포르노 비디오",
+            "nickname": "",
+            "color": "초록색",
+            "target": "클라운",
+            "image": "클라운/포르노비디오.png"
+        },
+        {
+            "name": "클로로폼이 든 병",
+            "nickname": "",
+            "color": "초록색",
+            "target": "클라운",
+            "image": "클라운/클로로폼이든병.png"
+        },
+        {
+            "name": "에테르 10 VOL%",
+            "nickname": "",
+            "color": "초록색",
+            "target": "클라운",
+            "image": "클라운/에테르10VOL%.png"
+        },
+        {
+            "name": "화려한 화장용품 키트",
+            "nickname": "",
+            "color": "보라색",
+            "target": "클라운",
+            "image": "클라운/화려한화장용품키트.png"
+        },
+        {
+            "name": "에테르 15 VOL%",
+            "nickname": "",
+            "color": "보라색",
+            "target": "클라운",
+            "image": "클라운/에테르15VOL%.png"
+        },
+        {
+            "name": "싸구려 진",
+            "nickname": "",
+            "color": "보라색",
+            "target": "클라운",
+            "image": "클라운/싸구려진.png"
+        },
+        {
+            "name": "담뱃갑",
+            "nickname": "",
+            "color": "보라색",
+            "target": "클라운",
+            "image": "클라운/담뱃갑.png"
+        },
+        {
+            "name": "빨간 머리의 새끼손가락",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "클라운",
+            "image": "클라운/빨간머리의새끼손가락.png"
+        },
+        {
+            "name": "문신한 사내의 중지손가락",
+            "nickname": "",
+            "color": "붉은색",
+            "target": "클라운",
+            "image": "클라운/문신한사내의중지손가락.png"
         }
     ]
 }
