@@ -1531,7 +1531,7 @@
             "nickname": "",
             "color": "갈색",
             "target": "클라운",
-            "image": "클라운/에테르5VOL%.png"
+            "image": "클라운/에테르5VOL.png"
         },
         {
             "name": "행사용 핑거리스 장갑",
@@ -1608,7 +1608,7 @@
             "nickname": "",
             "color": "초록색",
             "target": "클라운",
-            "image": "클라운/에테르10VOL%.png"
+            "image": "클라운/에테르10VOL.png"
         },
         {
             "name": "화려한 화장용품 키트",
@@ -1622,7 +1622,7 @@
             "nickname": "",
             "color": "보라색",
             "target": "클라운",
-            "image": "클라운/에테르15VOL%.png"
+            "image": "클라운/에테르15VOL.png"
         },
         {
             "name": "싸구려 진",
